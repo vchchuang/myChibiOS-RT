@@ -68,7 +68,7 @@ static msg_t Thread1(void *arg) {
 /*
  * Green LED blinker thread, times are in milliseconds.
  */
-/*static WORKING_AREA(waThread2, 128);
+static WORKING_AREA(waThread2, 128);
 static msg_t Thread2(void *arg) {
 
   (void)arg;
@@ -82,7 +82,7 @@ static msg_t Thread2(void *arg) {
   }
 
   return CH_SUCCESS;
-}*/
+}
 
 /*===========================================================================*/
 /* LTDC related.                                                             */
@@ -758,7 +758,7 @@ int main(void) {
    */
   chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO + 10,
                     Thread1, NULL);
-  //chThdCreateStatic(waThread2, sizeof(waThread2), NORMALPRIO + 10,Thread2, NULL);
+  chThdCreateStatic(waThread2, sizeof(waThread2), NORMALPRIO + 10,Thread2, NULL);
 
   /*
    * Normal main() thread activity, in this demo it just performs
