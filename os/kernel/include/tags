@@ -1,0 +1,401 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABSPRIO	chschd.h	52;"	d
+ALL_EVENTS	chevents.h	89;"	d
+BSEMAPHORE_DECL	chbsem.h	84;"	d
+BaseFileStream	chfiles.h	/^} BaseFileStream;$/;"	t	typeref:struct:__anon4
+BaseFileStreamVMT	chfiles.h	/^struct BaseFileStreamVMT {$/;"	s
+BaseSequentialStream	chstreams.h	/^} BaseSequentialStream;$/;"	t	typeref:struct:__anon13
+BaseSequentialStreamVMT	chstreams.h	/^struct BaseSequentialStreamVMT {$/;"	s
+BinarySemaphore	chbsem.h	/^} BinarySemaphore;$/;"	t	typeref:struct:__anon1
+CH_DBG_ENABLED	chdebug.h	34;"	d
+CH_DBG_ENABLED	chdebug.h	36;"	d
+CH_FAILED	ch.h	99;"	d
+CH_FAST_IRQ_HANDLER	chsys.h	233;"	d
+CH_IRQ_EPILOGUE	chsys.h	208;"	d
+CH_IRQ_HANDLER	chsys.h	219;"	d
+CH_IRQ_PROLOGUE	chsys.h	196;"	d
+CH_KERNEL_MAJOR	ch.h	52;"	d
+CH_KERNEL_MINOR	ch.h	57;"	d
+CH_KERNEL_PATCH	ch.h	62;"	d
+CH_KERNEL_VERSION	ch.h	43;"	d
+CH_STACK_FILL_VALUE	chdebug.h	59;"	d
+CH_SUCCESS	ch.h	89;"	d
+CH_THREAD_FILL_VALUE	chdebug.h	70;"	d
+CH_TRACE_BUFFER_SIZE	chdebug.h	52;"	d
+CONDVAR_DECL	chcond.h	85;"	d
+CondVar	chcond.h	/^typedef struct CondVar {$/;"	s
+CondVar	chcond.h	/^} CondVar;$/;"	t	typeref:struct:CondVar
+EVENTSOURCE_DECL	chevents.h	84;"	d
+EVENT_MASK	chevents.h	94;"	d
+EventListener	chevents.h	/^struct EventListener {$/;"	s
+EventListener	chevents.h	/^typedef struct EventListener EventListener;$/;"	t	typeref:struct:EventListener
+EventSource	chevents.h	/^typedef struct EventSource {$/;"	s
+EventSource	chevents.h	/^} EventSource;$/;"	t	typeref:struct:EventSource
+FALSE	ch.h	72;"	d
+FILE_ERROR	chfiles.h	50;"	d
+FILE_OK	chfiles.h	45;"	d
+GenericQueue	chqueues.h	/^struct GenericQueue {$/;"	s
+GenericQueue	chqueues.h	/^typedef struct GenericQueue GenericQueue;$/;"	t	typeref:struct:GenericQueue
+HIGHPRIO	chschd.h	51;"	d
+IDLEPRIO	chschd.h	48;"	d
+INPUTQUEUE_DECL	chqueues.h	224;"	d
+InputQueue	chqueues.h	/^typedef GenericQueue InputQueue;$/;"	t
+LOWPRIO	chschd.h	49;"	d
+MAILBOX_DECL	chmboxes.h	156;"	d
+MEMORYPOOL_DECL	chmempools.h	75;"	d
+MEM_ALIGN_MASK	chmemcore.h	50;"	d
+MEM_ALIGN_NEXT	chmemcore.h	60;"	d
+MEM_ALIGN_PREV	chmemcore.h	55;"	d
+MEM_ALIGN_SIZE	chmemcore.h	45;"	d
+MEM_IS_ALIGNED	chmemcore.h	66;"	d
+MS2ST	chvt.h	59;"	d
+MUTEX_DECL	chmtx.h	77;"	d
+Mailbox	chmboxes.h	/^} Mailbox;$/;"	t	typeref:struct:__anon9
+MemoryHeap	chheap.h	/^typedef struct memory_heap MemoryHeap;$/;"	t	typeref:struct:memory_heap
+MemoryPool	chmempools.h	/^} MemoryPool;$/;"	t	typeref:struct:__anon10
+Mutex	chmtx.h	/^typedef struct Mutex {$/;"	s
+Mutex	chmtx.h	/^} Mutex;$/;"	t	typeref:struct:Mutex
+NOPRIO	chschd.h	47;"	d
+NORMALPRIO	chschd.h	50;"	d
+OUTPUTQUEUE_DECL	chqueues.h	341;"	d
+OutputQueue	chqueues.h	/^typedef GenericQueue OutputQueue;$/;"	t
+Q_EMPTY	chqueues.h	41;"	d
+Q_FULL	chqueues.h	42;"	d
+Q_OK	chqueues.h	38;"	d
+Q_RESET	chqueues.h	40;"	d
+Q_TIMEOUT	chqueues.h	39;"	d
+RDY_OK	chschd.h	36;"	d
+RDY_RESET	chschd.h	39;"	d
+RDY_TIMEOUT	chschd.h	37;"	d
+REG_INSERT	chregistry.h	110;"	d
+REG_REMOVE	chregistry.h	99;"	d
+ReadyList	chschd.h	/^} ReadyList;$/;"	t	typeref:struct:__anon12
+S2ST	chvt.h	46;"	d
+SEMAPHORE_DECL	chsem.h	83;"	d
+Semaphore	chsem.h	/^typedef struct Semaphore {$/;"	s
+Semaphore	chsem.h	/^} Semaphore;$/;"	t	typeref:struct:Semaphore
+THD_MEM_MODE_HEAP	chthreads.h	72;"	d
+THD_MEM_MODE_MASK	chthreads.h	70;"	d
+THD_MEM_MODE_MEMPOOL	chthreads.h	74;"	d
+THD_MEM_MODE_STATIC	chthreads.h	71;"	d
+THD_STATE_CURRENT	chthreads.h	37;"	d
+THD_STATE_FINAL	chthreads.h	53;"	d
+THD_STATE_NAMES	chthreads.h	60;"	d
+THD_STATE_READY	chthreads.h	36;"	d
+THD_STATE_SLEEPING	chthreads.h	43;"	d
+THD_STATE_SNDMSG	chthreads.h	49;"	d
+THD_STATE_SNDMSGQ	chthreads.h	48;"	d
+THD_STATE_SUSPENDED	chthreads.h	38;"	d
+THD_STATE_WTANDEVT	chthreads.h	47;"	d
+THD_STATE_WTCOND	chthreads.h	41;"	d
+THD_STATE_WTEXIT	chthreads.h	45;"	d
+THD_STATE_WTMSG	chthreads.h	51;"	d
+THD_STATE_WTMTX	chthreads.h	40;"	d
+THD_STATE_WTOREVT	chthreads.h	46;"	d
+THD_STATE_WTQUEUE	chthreads.h	52;"	d
+THD_STATE_WTSEM	chthreads.h	39;"	d
+THD_TERMINATE	chthreads.h	76;"	d
+THREADSQUEUE_DECL	chlists.h	83;"	d
+TIME_IMMEDIATE	chschd.h	65;"	d
+TIME_INFINITE	chschd.h	71;"	d
+TRUE	ch.h	79;"	d
+Thread	chlists.h	/^typedef struct Thread Thread;$/;"	t	typeref:struct:Thread
+Thread	chthreads.h	/^struct Thread {$/;"	s
+ThreadsList	chlists.h	/^} ThreadsList;$/;"	t	typeref:struct:__anon8
+ThreadsQueue	chlists.h	/^} ThreadsQueue;$/;"	t	typeref:struct:__anon7
+US2ST	chvt.h	73;"	d
+VTList	chvt.h	/^} VTList;$/;"	t	typeref:struct:__anon15
+VirtualTimer	chvt.h	/^struct VirtualTimer {$/;"	s
+VirtualTimer	chvt.h	/^typedef struct VirtualTimer VirtualTimer;$/;"	t	typeref:struct:VirtualTimer
+_BSEMAPHORE_DATA	chbsem.h	73;"	d
+_CHBSEM_H_	chbsem.h	52;"	d
+_CHCOND_H_	chcond.h	33;"	d
+_CHDEBUG_H_	chdebug.h	30;"	d
+_CHDYNAMIC_H_	chdynamic.h	30;"	d
+_CHEVENTS_H_	chevents.h	33;"	d
+_CHFILES_H_	chfiles.h	40;"	d
+_CHHEAP_H_	chheap.h	30;"	d
+_CHIBIOS_RT_	ch.h	38;"	d
+_CHINLINE_H_	chinline.h	29;"	d
+_CHLISTS_H_	chlists.h	33;"	d
+_CHMBOXES_H_	chmboxes.h	30;"	d
+_CHMEMCORE_H_	chmemcore.h	30;"	d
+_CHMEMPOOLS_H_	chmempools.h	30;"	d
+_CHMSG_H_	chmsg.h	30;"	d
+_CHMTX_H_	chmtx.h	30;"	d
+_CHQUEUES_H_	chqueues.h	30;"	d
+_CHREGISTRY_H_	chregistry.h	30;"	d
+_CHSCHD_H_	chschd.h	30;"	d
+_CHSEM_H_	chsem.h	30;"	d
+_CHSTREAMS_H_	chstreams.h	40;"	d
+_CHSYS_H_	chsys.h	30;"	d
+_CHTHREADS_H_	chthreads.h	30;"	d
+_CHVT_H_	chvt.h	30;"	d
+_CH_H_	ch.h	33;"	d
+_CONDVAR_DATA	chcond.h	76;"	d
+_EVENTSOURCE_DATA	chevents.h	75;"	d
+_INPUTQUEUE_DATA	chqueues.h	202;"	d
+_MAILBOX_DATA	chmboxes.h	138;"	d
+_MEMORYPOOL_DATA	chmempools.h	62;"	d
+_MUTEX_DATA	chmtx.h	68;"	d
+_OUTPUTQUEUE_DATA	chqueues.h	319;"	d
+_SEMAPHORE_DATA	chsem.h	72;"	d
+_THREADSQUEUE_DATA	chlists.h	74;"	d
+__QUOTE_THIS	chdebug.h	39;"	d
+_base_file_stream_data	chfiles.h	78;"	d
+_base_file_stream_methods	chfiles.h	60;"	d
+_base_sequential_stream_data	chstreams.h	60;"	d
+_base_sequential_stream_methods	chstreams.h	45;"	d
+align	chheap.h	/^  stkalign_t align;$/;"	m	union:heap_header
+bs_sem	chbsem.h	/^  Semaphore             bs_sem;$/;"	m	struct:__anon1
+c_queue	chcond.h	/^  ThreadsQueue          c_queue;        \/**< @brief CondVar threads queue.*\/$/;"	m	struct:CondVar
+cf_off_ctx	chregistry.h	/^  uint8_t   cf_off_ctx;             \/**< @brief Offset of @p p_ctx field.   *\/$/;"	m	struct:__anon11
+cf_off_flags	chregistry.h	/^  uint8_t   cf_off_flags;           \/**< @brief Offset of @p p_flags field. *\/$/;"	m	struct:__anon11
+cf_off_name	chregistry.h	/^  uint8_t   cf_off_name;            \/**< @brief Offset of @p p_name field.  *\/$/;"	m	struct:__anon11
+cf_off_newer	chregistry.h	/^  uint8_t   cf_off_newer;           \/**< @brief Offset of @p p_newer field. *\/$/;"	m	struct:__anon11
+cf_off_older	chregistry.h	/^  uint8_t   cf_off_older;           \/**< @brief Offset of @p p_older field. *\/$/;"	m	struct:__anon11
+cf_off_preempt	chregistry.h	/^  uint8_t   cf_off_preempt;         \/**< @brief Offset of @p p_preempt$/;"	m	struct:__anon11
+cf_off_prio	chregistry.h	/^  uint8_t   cf_off_prio;            \/**< @brief Offset of @p p_prio field.  *\/$/;"	m	struct:__anon11
+cf_off_refs	chregistry.h	/^  uint8_t   cf_off_refs;            \/**< @brief Offset of @p p_refs field.  *\/$/;"	m	struct:__anon11
+cf_off_state	chregistry.h	/^  uint8_t   cf_off_state;           \/**< @brief Offset of @p p_state field. *\/$/;"	m	struct:__anon11
+cf_off_stklimit	chregistry.h	/^  uint8_t   cf_off_stklimit;        \/**< @brief Offset of @p p_stklimit$/;"	m	struct:__anon11
+cf_off_time	chregistry.h	/^  uint8_t   cf_off_time;            \/**< @brief Offset of @p p_time field.  *\/$/;"	m	struct:__anon11
+chBSemGetStateI	chbsem.h	244;"	d
+chBSemInit	chbsem.h	102;"	d
+chBSemReset	chbsem.h	188;"	d
+chBSemResetI	chbsem.h	205;"	d
+chBSemSignal	chbsem.h	214;"	d
+chBSemSignalI	chbsem.h	229;"	d
+chBSemWait	chbsem.h	116;"	d
+chBSemWaitS	chbsem.h	130;"	d
+chBSemWaitTimeout	chbsem.h	151;"	d
+chBSemWaitTimeoutS	chbsem.h	172;"	d
+chDbgAssert	chdebug.h	195;"	d
+chDbgAssert	chdebug.h	202;"	d
+chDbgCheck	chdebug.h	156;"	d
+chDbgCheck	chdebug.h	163;"	d
+chDbgCheckClassI	chdebug.h	91;"	d
+chDbgCheckClassS	chdebug.h	92;"	d
+chDbgPanic	chdebug.h	212;"	d
+chEvtBroadcast	chevents.h	148;"	d
+chEvtBroadcastI	chevents.h	162;"	d
+chEvtInit	chevents.h	127;"	d
+chEvtIsListeningI	chevents.h	137;"	d
+chEvtRegister	chevents.h	115;"	d
+chEvtWaitAll	chevents.h	198;"	d
+chEvtWaitAny	chevents.h	197;"	d
+chEvtWaitOne	chevents.h	196;"	d
+chFileStreamClose	chfiles.h	117;"	d
+chFileStreamGetError	chfiles.h	127;"	d
+chFileStreamGetPosition	chfiles.h	147;"	d
+chFileStreamGetSize	chfiles.h	137;"	d
+chFileStreamSeek	chfiles.h	160;"	d
+chIQGet	chqueues.h	188;"	d
+chIQGetEmptyI	chqueues.h	149;"	d
+chIQGetFullI	chqueues.h	138;"	d
+chIQIsEmptyI	chqueues.h	161;"	d
+chIQIsFullI	chqueues.h	173;"	d
+chMBGetFreeCountI	chmboxes.h	101;"	d
+chMBGetUsedCountI	chmboxes.h	115;"	d
+chMBPeekI	chmboxes.h	126;"	d
+chMBSizeI	chmboxes.h	86;"	d
+chMsgGet	chmsg.h	56;"	d
+chMsgIsPendingI	chmsg.h	43;"	d
+chMsgReleaseS	chmsg.h	68;"	d
+chMtxQueueNotEmptyS	chmtx.h	89;"	d
+chOQGetEmptyI	chqueues.h	264;"	d
+chOQGetFullI	chqueues.h	253;"	d
+chOQIsEmptyI	chqueues.h	276;"	d
+chOQIsFullI	chqueues.h	289;"	d
+chOQPut	chqueues.h	305;"	d
+chPoolAdd	chmempools.h	97;"	d
+chPoolAddI	chmempools.h	114;"	d
+chQGetLink	chqueues.h	109;"	d
+chQSizeI	chqueues.h	86;"	d
+chQSpaceI	chqueues.h	98;"	d
+chRegGetThreadName	chregistry.h	85;"	d
+chRegGetThreadName	chregistry.h	89;"	d
+chRegSetThreadName	chregistry.h	73;"	d
+chRegSetThreadName	chregistry.h	88;"	d
+chSchCanYieldS	chschd.h	190;"	d
+chSchDoYieldS	chschd.h	201;"	d
+chSchIsRescRequiredI	chschd.h	179;"	d
+chSchPreemption	chschd.h	215;"	d
+chSchPreemption	chschd.h	228;"	d
+chSemFastSignalI	chsem.h	104;"	d
+chSemFastWaitI	chsem.h	95;"	d
+chSemGetCounterI	chsem.h	111;"	d
+chSequentialStreamGet	chstreams.h	142;"	d
+chSequentialStreamPut	chstreams.h	128;"	d
+chSequentialStreamRead	chstreams.h	112;"	d
+chSequentialStreamWrite	chstreams.h	97;"	d
+chSysDisable	chsys.h	95;"	d
+chSysEnable	chsys.h	125;"	d
+chSysGetIdleThread	chsys.h	49;"	d
+chSysHalt	chsys.h	63;"	d
+chSysHalt	chsys.h	65;"	d
+chSysLock	chsys.h	135;"	d
+chSysLockFromIsr	chsys.h	162;"	d
+chSysSuspend	chsys.h	111;"	d
+chSysSwitch	chsys.h	81;"	d
+chSysUnlock	chsys.h	145;"	d
+chSysUnlockFromIsr	chsys.h	180;"	d
+chThdGetPriority	chthreads.h	242;"	d
+chThdGetTicks	chthreads.h	254;"	d
+chThdLS	chthreads.h	262;"	d
+chThdResumeI	chthreads.h	294;"	d
+chThdSelf	chthreads.h	234;"	d
+chThdShouldTerminate	chthreads.h	285;"	d
+chThdSleepMicroseconds	chthreads.h	346;"	d
+chThdSleepMilliseconds	chthreads.h	333;"	d
+chThdSleepS	chthreads.h	308;"	d
+chThdSleepSeconds	chthreads.h	320;"	d
+chThdTerminated	chthreads.h	274;"	d
+chTimeElapsedSince	chvt.h	219;"	d
+chTimeIsWithin	chvt.h	234;"	d
+chTimeNow	chvt.h	209;"	d
+chVTDoTickI	chvt.h	133;"	d
+chVTIsArmedI	chvt.h	156;"	d
+chVTReset	chvt.h	191;"	d
+chVTSet	chvt.h	177;"	d
+ch_identifier	chregistry.h	/^  char      ch_identifier[4];       \/**< @brief Always set to "main".       *\/$/;"	m	struct:__anon11
+ch_ptrsize	chregistry.h	/^  uint8_t   ch_ptrsize;             \/**< @brief Size of a pointer.          *\/$/;"	m	struct:__anon11
+ch_size	chregistry.h	/^  uint8_t   ch_size;                \/**< @brief Size of this structure.     *\/$/;"	m	struct:__anon11
+ch_swc_event_t	chdebug.h	/^} ch_swc_event_t;$/;"	t	typeref:struct:__anon2
+ch_threadsize	chregistry.h	/^  uint8_t   ch_threadsize;          \/**< @brief Size of a @p Thread struct. *\/$/;"	m	struct:__anon11
+ch_timesize	chregistry.h	/^  uint8_t   ch_timesize;            \/**< @brief Size of a @p systime_t.     *\/$/;"	m	struct:__anon11
+ch_trace_buffer_t	chdebug.h	/^} ch_trace_buffer_t;$/;"	t	typeref:struct:__anon3
+ch_version	chregistry.h	/^  uint16_t  ch_version;             \/**< @brief Encoded ChibiOS\/RT version. *\/$/;"	m	struct:__anon11
+ch_zero	chregistry.h	/^  uint8_t   ch_zero;                \/**< @brief Must be zero.               *\/$/;"	m	struct:__anon11
+chdebug_t	chregistry.h	/^} chdebug_t;$/;"	t	typeref:struct:__anon11
+currp	chschd.h	115;"	d
+dbg_check_disable	chdebug.h	82;"	d
+dbg_check_enable	chdebug.h	84;"	d
+dbg_check_enter_isr	chdebug.h	89;"	d
+dbg_check_leave_isr	chdebug.h	90;"	d
+dbg_check_lock	chdebug.h	85;"	d
+dbg_check_lock_from_isr	chdebug.h	87;"	d
+dbg_check_suspend	chdebug.h	83;"	d
+dbg_check_unlock	chdebug.h	86;"	d
+dbg_check_unlock_from_isr	chdebug.h	88;"	d
+dbg_enter_lock	chdebug.h	80;"	d
+dbg_enter_lock	chdebug.h	94;"	d
+dbg_leave_lock	chdebug.h	81;"	d
+dbg_leave_lock	chdebug.h	95;"	d
+dbg_trace	chdebug.h	132;"	d
+dequeue	chinline.h	/^static INLINE Thread *dequeue(Thread *tp) {$/;"	f
+el_flags	chevents.h	/^  flagsmask_t           el_flags;       \/**< @brief Flags added to the listener$/;"	m	struct:EventListener
+el_listener	chevents.h	/^  Thread                *el_listener;   \/**< @brief Thread interested in the$/;"	m	struct:EventListener
+el_mask	chevents.h	/^  eventmask_t           el_mask;        \/**< @brief Event flags mask associated$/;"	m	struct:EventListener
+el_next	chevents.h	/^  EventListener         *el_next;       \/**< @brief Next Event Listener$/;"	m	struct:EventListener
+es_next	chevents.h	/^  EventListener         *es_next;       \/**< @brief First Event Listener$/;"	m	struct:EventSource
+evhandler_t	chevents.h	/^typedef void (*evhandler_t)(eventid_t);$/;"	t
+ewmask	chthreads.h	/^    eventmask_t         ewmask;$/;"	m	union:Thread::__anon14
+exitcode	chthreads.h	/^    msg_t               exitcode;$/;"	m	union:Thread::__anon14
+fifo_remove	chinline.h	/^static INLINE Thread *fifo_remove(ThreadsQueue *tqp) {$/;"	f
+fileoffset_t	chfiles.h	/^typedef uint32_t fileoffset_t;$/;"	t
+firstprio	chschd.h	79;"	d
+h	chheap.h	/^  } h;$/;"	m	union:heap_header	typeref:struct:heap_header::__anon5
+h_free	chheap.h	/^  union heap_header     h_free;     \/**< @brief Free blocks list header.    *\/$/;"	m	struct:memory_heap	typeref:union:memory_heap::heap_header
+h_mtx	chheap.h	/^  Mutex                 h_mtx;      \/**< @brief Heap access mutex.          *\/$/;"	m	struct:memory_heap
+h_provider	chheap.h	/^  memgetfunc_t          h_provider; \/**< @brief Memory blocks provider for$/;"	m	struct:memory_heap
+h_sem	chheap.h	/^  Semaphore             h_sem;      \/**< @brief Heap access semaphore.      *\/$/;"	m	struct:memory_heap
+heap	chheap.h	/^      MemoryHeap        *heap;      \/**< @brief Block owner heap.           *\/$/;"	m	union:heap_header::__anon5::__anon6
+heap_header	chheap.h	/^union heap_header {$/;"	u
+isempty	chlists.h	57;"	d
+lifo_remove	chinline.h	/^static INLINE Thread *lifo_remove(ThreadsQueue *tqp) {$/;"	f
+list_init	chlists.h	49;"	d
+list_insert	chinline.h	/^static INLINE void list_insert(Thread *tp, ThreadsList *tlp) {$/;"	f
+list_remove	chinline.h	/^static INLINE Thread *list_remove(ThreadsList *tlp) {$/;"	f
+m_next	chmtx.h	/^  struct Mutex          *m_next;    \/**< @brief Next @p Mutex into an$/;"	m	struct:Mutex	typeref:struct:Mutex::Mutex
+m_owner	chmtx.h	/^  Thread                *m_owner;   \/**< @brief Owner @p Thread pointer or$/;"	m	struct:Mutex
+m_queue	chmtx.h	/^  ThreadsQueue          m_queue;    \/**< @brief Queue of the threads sleeping$/;"	m	struct:Mutex
+mb_buffer	chmboxes.h	/^  msg_t                 *mb_buffer;     \/**< @brief Pointer to the mailbox$/;"	m	struct:__anon9
+mb_emptysem	chmboxes.h	/^  Semaphore             mb_emptysem;    \/**< @brief Empty counter$/;"	m	struct:__anon9
+mb_fullsem	chmboxes.h	/^  Semaphore             mb_fullsem;     \/**< @brief Full counter$/;"	m	struct:__anon9
+mb_rdptr	chmboxes.h	/^  msg_t                 *mb_rdptr;      \/**< @brief Read pointer.           *\/$/;"	m	struct:__anon9
+mb_top	chmboxes.h	/^  msg_t                 *mb_top;        \/**< @brief Pointer to the location$/;"	m	struct:__anon9
+mb_wrptr	chmboxes.h	/^  msg_t                 *mb_wrptr;      \/**< @brief Write pointer.          *\/$/;"	m	struct:__anon9
+memgetfunc_t	chmemcore.h	/^typedef void *(*memgetfunc_t)(size_t size);$/;"	t
+memory_heap	chheap.h	/^struct memory_heap {$/;"	s
+mp_next	chmempools.h	/^  struct pool_header    *mp_next;       \/**< @brief Pointer to the header.  *\/$/;"	m	struct:__anon10	typeref:struct:__anon10::pool_header
+mp_object_size	chmempools.h	/^  size_t                mp_object_size; \/**< @brief Memory pool objects$/;"	m	struct:__anon10
+mp_provider	chmempools.h	/^  memgetfunc_t          mp_provider;    \/**< @brief Memory blocks provider for$/;"	m	struct:__anon10
+next	chheap.h	/^      union heap_header *next;      \/**< @brief Next block in free list.    *\/$/;"	m	union:heap_header::__anon5::__anon6	typeref:union:heap_header::__anon5::__anon6::heap_header
+notempty	chlists.h	65;"	d
+p_ctx	chthreads.h	/^  struct context        p_ctx;      \/**< @brief Processor context.          *\/$/;"	m	struct:Thread	typeref:struct:Thread::context
+p_epending	chthreads.h	/^  eventmask_t           p_epending;$/;"	m	struct:Thread
+p_flags	chthreads.h	/^  tmode_t               p_flags;$/;"	m	struct:Thread
+p_mpool	chthreads.h	/^  void                  *p_mpool;$/;"	m	struct:Thread
+p_msg	chthreads.h	/^  msg_t                 p_msg;$/;"	m	struct:Thread
+p_msgqueue	chthreads.h	/^  ThreadsQueue          p_msgqueue;$/;"	m	struct:Thread
+p_mtxlist	chthreads.h	/^  Mutex                 *p_mtxlist;$/;"	m	struct:Thread
+p_name	chthreads.h	/^  const char            *p_name;$/;"	m	struct:Thread
+p_newer	chthreads.h	/^  Thread                *p_newer;   \/**< @brief Newer registry element.     *\/$/;"	m	struct:Thread
+p_next	chlists.h	/^  Thread                *p_next;        \/**< First @p Thread in the queue, or$/;"	m	struct:__anon7
+p_next	chlists.h	/^  Thread            *p_next;            \/**< Last pushed @p Thread on the stack$/;"	m	struct:__anon8
+p_next	chthreads.h	/^  Thread                *p_next;    \/**< @brief Next in the list\/queue.     *\/$/;"	m	struct:Thread
+p_older	chthreads.h	/^  Thread                *p_older;   \/**< @brief Older registry element.     *\/$/;"	m	struct:Thread
+p_preempt	chthreads.h	/^  tslices_t             p_preempt;$/;"	m	struct:Thread
+p_prev	chlists.h	/^  Thread                *p_prev;        \/**< Last @p Thread in the queue, or$/;"	m	struct:__anon7
+p_prev	chthreads.h	/^  Thread                *p_prev;    \/**< @brief Previous in the queue.      *\/$/;"	m	struct:Thread
+p_prio	chthreads.h	/^  tprio_t               p_prio;     \/**< @brief Thread priority.            *\/$/;"	m	struct:Thread
+p_realprio	chthreads.h	/^  tprio_t               p_realprio;$/;"	m	struct:Thread
+p_refs	chthreads.h	/^  trefs_t               p_refs;$/;"	m	struct:Thread
+p_state	chthreads.h	/^  tstate_t              p_state;$/;"	m	struct:Thread
+p_stklimit	chthreads.h	/^  stkalign_t            *p_stklimit;$/;"	m	struct:Thread
+p_time	chthreads.h	/^  volatile systime_t    p_time;$/;"	m	struct:Thread
+p_u	chthreads.h	/^  }                     p_u;$/;"	m	struct:Thread	typeref:union:Thread::__anon14
+p_waiting	chthreads.h	/^  ThreadsList           p_waiting;$/;"	m	struct:Thread
+ph_next	chmempools.h	/^  struct pool_header    *ph_next;       \/**< @brief Pointer to the next pool$/;"	m	struct:pool_header	typeref:struct:pool_header::pool_header
+pool_header	chmempools.h	/^struct pool_header {$/;"	s
+prio_insert	chinline.h	/^static INLINE void prio_insert(Thread *tp, ThreadsQueue *tqp) {$/;"	f
+q_buffer	chqueues.h	/^  uint8_t               *q_buffer;  \/**< @brief Pointer to the queue buffer.*\/$/;"	m	struct:GenericQueue
+q_counter	chqueues.h	/^  size_t                q_counter;  \/**< @brief Resources counter.          *\/$/;"	m	struct:GenericQueue
+q_link	chqueues.h	/^  void                  *q_link;    \/**< @brief Application defined field.  *\/$/;"	m	struct:GenericQueue
+q_notify	chqueues.h	/^  qnotify_t             q_notify;   \/**< @brief Data notification callback. *\/$/;"	m	struct:GenericQueue
+q_rdptr	chqueues.h	/^  uint8_t               *q_rdptr;   \/**< @brief Read pointer.               *\/$/;"	m	struct:GenericQueue
+q_top	chqueues.h	/^  uint8_t               *q_top;     \/**< @brief Pointer to the first location$/;"	m	struct:GenericQueue
+q_waiting	chqueues.h	/^  ThreadsQueue          q_waiting;  \/**< @brief Queue of waiting threads.   *\/$/;"	m	struct:GenericQueue
+q_wrptr	chqueues.h	/^  uint8_t               *q_wrptr;   \/**< @brief Write pointer.              *\/$/;"	m	struct:GenericQueue
+qnotify_t	chqueues.h	/^typedef void (*qnotify_t)(GenericQueue *qp);$/;"	t
+queue_init	chlists.h	42;"	d
+queue_insert	chinline.h	/^static INLINE void queue_insert(Thread *tp, ThreadsQueue *tqp) {$/;"	f
+r_ctx	chschd.h	/^  struct context        r_ctx;      \/**< @brief Not used, present because$/;"	m	struct:__anon12	typeref:struct:__anon12::context
+r_current	chschd.h	/^  Thread                *r_current; \/**< @brief The currently running$/;"	m	struct:__anon12
+r_newer	chschd.h	/^  Thread                *r_newer;   \/**< @brief Newer registry element.     *\/$/;"	m	struct:__anon12
+r_older	chschd.h	/^  Thread                *r_older;   \/**< @brief Older registry element.     *\/$/;"	m	struct:__anon12
+r_prio	chschd.h	/^  tprio_t               r_prio;     \/**< @brief This field must be$/;"	m	struct:__anon12
+r_queue	chschd.h	/^  ThreadsQueue          r_queue;    \/**< @brief Threads queue.              *\/$/;"	m	struct:__anon12
+rdymsg	chthreads.h	/^    msg_t               rdymsg;$/;"	m	union:Thread::__anon14
+s_cnt	chsem.h	/^  cnt_t                 s_cnt;      \/**< @brief The semaphore counter.      *\/$/;"	m	struct:Semaphore
+s_queue	chsem.h	/^  ThreadsQueue          s_queue;    \/**< @brief Queue of the threads sleeping$/;"	m	struct:Semaphore
+se_state	chdebug.h	/^  uint8_t               se_state;   \/**< @brief Switched out thread state.  *\/$/;"	m	struct:__anon2
+se_time	chdebug.h	/^  systime_t             se_time;    \/**< @brief Time of the switch event.   *\/$/;"	m	struct:__anon2
+se_tp	chdebug.h	/^  Thread                *se_tp;     \/**< @brief Switched in thread.         *\/$/;"	m	struct:__anon2
+se_wtobjp	chdebug.h	/^  void                  *se_wtobjp; \/**< @brief Object where going to sleep.*\/$/;"	m	struct:__anon2
+setcurrp	chschd.h	126;"	d
+size	chheap.h	/^    size_t              size;       \/**< @brief Size of the memory block.   *\/$/;"	m	struct:heap_header::__anon5
+tb_buffer	chdebug.h	/^  ch_swc_event_t        tb_buffer[CH_TRACE_BUFFER_SIZE];$/;"	m	struct:__anon3
+tb_ptr	chdebug.h	/^  ch_swc_event_t        *tb_ptr;    \/**< @brief Pointer to the buffer front.*\/$/;"	m	struct:__anon3
+tb_size	chdebug.h	/^  unsigned              tb_size;    \/**< @brief Trace buffer size (entries).*\/$/;"	m	struct:__anon3
+tfunc_t	chthreads.h	/^typedef msg_t (*tfunc_t)(void *);$/;"	t
+u	chheap.h	/^    } u;                            \/**< @brief Overlapped fields.          *\/$/;"	m	struct:heap_header::__anon5	typeref:union:heap_header::__anon5::__anon6
+vmt	chfiles.h	/^  const struct BaseFileStreamVMT *vmt;$/;"	m	struct:__anon4	typeref:struct:__anon4::BaseFileStreamVMT
+vmt	chstreams.h	/^  const struct BaseSequentialStreamVMT *vmt;$/;"	m	struct:__anon13	typeref:struct:__anon13::BaseSequentialStreamVMT
+vt_func	chvt.h	/^  vtfunc_t              vt_func;    \/**< @brief Timer callback function$/;"	m	struct:VirtualTimer
+vt_next	chvt.h	/^  VirtualTimer          *vt_next;   \/**< @brief Next timer in the delta$/;"	m	struct:VirtualTimer
+vt_next	chvt.h	/^  VirtualTimer          *vt_next;   \/**< @brief Next timer in the delta$/;"	m	struct:__anon15
+vt_par	chvt.h	/^  void                  *vt_par;    \/**< @brief Timer callback function$/;"	m	struct:VirtualTimer
+vt_prev	chvt.h	/^  VirtualTimer          *vt_prev;   \/**< @brief Last timer in the delta$/;"	m	struct:__anon15
+vt_prev	chvt.h	/^  VirtualTimer          *vt_prev;   \/**< @brief Previous timer in the delta$/;"	m	struct:VirtualTimer
+vt_systime	chvt.h	/^  volatile systime_t    vt_systime; \/**< @brief System Time counter.        *\/$/;"	m	struct:__anon15
+vt_time	chvt.h	/^  systime_t             vt_time;    \/**< @brief Must be initialized to -1.  *\/$/;"	m	struct:__anon15
+vt_time	chvt.h	/^  systime_t             vt_time;    \/**< @brief Time delta before timeout.  *\/$/;"	m	struct:VirtualTimer
+vtfunc_t	chvt.h	/^typedef void (*vtfunc_t)(void *);$/;"	t
+wtobjp	chthreads.h	/^    void                *wtobjp;$/;"	m	union:Thread::__anon14

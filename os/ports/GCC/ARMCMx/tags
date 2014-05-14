@@ -1,0 +1,626 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACOBJS	rules.mk	/^ACOBJS    = $(addprefix $(OBJDIR)\/, $(notdir $(ACSRC:.c=.o)))$/;"	m
+ACPPOBJS	rules.mk	/^ACPPOBJS  = $(addprefix $(OBJDIR)\/, $(notdir $(ACPPSRC:.cpp=.o)))$/;"	m
+ADEFS	rules.mk	/^ADEFS 	  = $(DADEFS) $(UADEFS)$/;"	m
+ASFLAGS	rules.mk	/^ASFLAGS   = $(MCFLAGS) -Wa,-amhls=$(LSTDIR)\/$(notdir $(<:.s=.lst)) $(ADEFS)$/;"	m
+ASMOBJS	rules.mk	/^ASMOBJS   = $(addprefix $(OBJDIR)\/, $(notdir $(ASMSRC:.s=.o)))$/;"	m
+ASMXOBJS	rules.mk	/^ASMXOBJS  = $(addprefix $(OBJDIR)\/, $(notdir $(ASMXSRC:.S=.o)))$/;"	m
+ASRC	rules.mk	/^ASRC	  = $(ACSRC)$(ACPPSRC)$/;"	m
+ASXFLAGS	rules.mk	/^ASXFLAGS  = $(MCFLAGS) -Wa,-amhls=$(LSTDIR)\/$(notdir $(<:.S=.lst)) $(ADEFS)$/;"	m
+BUILDDIR	rules.mk	/^  BUILDDIR = build$/;"	m
+CFLAGS	rules.mk	/^CFLAGS    = $(MCFLAGS) $(OPT) $(COPT) $(CWARN) -Wa,-alms=$(LSTDIR)\/$(notdir $(<:.c=.lst)) $(DEFS)$/;"	m
+CH_ARCHITECTURE_ARM	chcore.h	116;"	d
+CH_ARCHITECTURE_ARM_v6M	chcore_v6m.h	126;"	d
+CH_ARCHITECTURE_ARM_v7M	chcore_v7m.h	182;"	d
+CH_ARCHITECTURE_ARM_v7ME	chcore_v7m.h	195;"	d
+CH_ARCHITECTURE_NAME	chcore_v6m.h	131;"	d
+CH_ARCHITECTURE_NAME	chcore_v7m.h	187;"	d
+CH_ARCHITECTURE_NAME	chcore_v7m.h	196;"	d
+CH_COMPILER_NAME	chcore.h	121;"	d
+CH_CORE_VARIANT_NAME	chcore_v6m.h	137;"	d
+CH_CORE_VARIANT_NAME	chcore_v6m.h	139;"	d
+CH_CORE_VARIANT_NAME	chcore_v7m.h	192;"	d
+CH_CORE_VARIANT_NAME	chcore_v7m.h	198;"	d
+CH_CORE_VARIANT_NAME	chcore_v7m.h	200;"	d
+CH_IRQ_HANDLER	chcore_v6m.c	/^CH_IRQ_HANDLER(SysTickVector) {$/;"	f
+CH_IRQ_HANDLER	chcore_v7m.c	/^CH_IRQ_HANDLER(SysTickVector) {$/;"	f
+CH_PORT_INFO	chcore_v6m.h	146;"	d
+CH_PORT_INFO	chcore_v6m.h	148;"	d
+CH_PORT_INFO	chcore_v7m.h	208;"	d
+CH_PORT_INFO	chcore_v7m.h	210;"	d
+COPT	rules.mk	/^COPT = $(USE_COPT)$/;"	m
+CORTEX_ALTERNATE_SWITCH	chcore_v6m.h	103;"	d
+CORTEX_BASEPRI_DISABLED	chcore_v7m.h	39;"	d
+CORTEX_BASEPRI_KERNEL	chcore_v7m.h	158;"	d
+CORTEX_BASEPRI_KERNEL	chcore_v7m.h	163;"	d
+CORTEX_ENABLE_WFI_IDLE	chcore_v6m.h	82;"	d
+CORTEX_ENABLE_WFI_IDLE	chcore_v7m.h	79;"	d
+CORTEX_HAS_FPU	LPC11xx/cmparams.h	53;"	d
+CORTEX_HAS_FPU	LPC122x/cmparams.h	53;"	d
+CORTEX_HAS_FPU	LPC13xx/cmparams.h	53;"	d
+CORTEX_HAS_FPU	SAM4L/cmparams.h	53;"	d
+CORTEX_HAS_FPU	STM32F0xx/cmparams.h	53;"	d
+CORTEX_HAS_FPU	STM32F1xx/cmparams.h	53;"	d
+CORTEX_HAS_FPU	STM32F2xx/cmparams.h	53;"	d
+CORTEX_HAS_FPU	STM32F3xx/cmparams.h	53;"	d
+CORTEX_HAS_FPU	STM32F4xx/cmparams.h	53;"	d
+CORTEX_HAS_FPU	STM32L1xx/cmparams.h	53;"	d
+CORTEX_HAS_MPU	LPC11xx/cmparams.h	48;"	d
+CORTEX_HAS_MPU	LPC122x/cmparams.h	48;"	d
+CORTEX_HAS_MPU	LPC13xx/cmparams.h	48;"	d
+CORTEX_HAS_MPU	LPC8xx/cmparams.h	51;"	d
+CORTEX_HAS_MPU	SAM4L/cmparams.h	48;"	d
+CORTEX_HAS_MPU	STM32F0xx/cmparams.h	48;"	d
+CORTEX_HAS_MPU	STM32F1xx/cmparams.h	48;"	d
+CORTEX_HAS_MPU	STM32F2xx/cmparams.h	48;"	d
+CORTEX_HAS_MPU	STM32F3xx/cmparams.h	48;"	d
+CORTEX_HAS_MPU	STM32F4xx/cmparams.h	48;"	d
+CORTEX_HAS_MPU	STM32L1xx/cmparams.h	48;"	d
+CORTEX_HAS_ST	LPC11xx/cmparams.h	43;"	d
+CORTEX_HAS_ST	LPC122x/cmparams.h	43;"	d
+CORTEX_HAS_ST	LPC13xx/cmparams.h	43;"	d
+CORTEX_HAS_ST	LPC8xx/cmparams.h	46;"	d
+CORTEX_HAS_ST	SAM4L/cmparams.h	43;"	d
+CORTEX_HAS_ST	STM32F0xx/cmparams.h	43;"	d
+CORTEX_HAS_ST	STM32F1xx/cmparams.h	43;"	d
+CORTEX_HAS_ST	STM32F2xx/cmparams.h	43;"	d
+CORTEX_HAS_ST	STM32F3xx/cmparams.h	43;"	d
+CORTEX_HAS_ST	STM32F4xx/cmparams.h	43;"	d
+CORTEX_HAS_ST	STM32L1xx/cmparams.h	43;"	d
+CORTEX_IS_VALID_KERNEL_PRIORITY	chcore.h	92;"	d
+CORTEX_IS_VALID_PRIORITY	chcore.h	86;"	d
+CORTEX_M0	chcore.h	44;"	d
+CORTEX_M1	chcore.h	45;"	d
+CORTEX_M3	chcore.h	46;"	d
+CORTEX_M4	chcore.h	47;"	d
+CORTEX_MAXIMUM_PRIORITY	chcore.h	77;"	d
+CORTEX_MAX_KERNEL_PRIORITY	chcore_v6m.h	114;"	d
+CORTEX_MAX_KERNEL_PRIORITY	chcore_v6m.h	116;"	d
+CORTEX_MAX_KERNEL_PRIORITY	chcore_v7m.h	152;"	d
+CORTEX_MAX_KERNEL_PRIORITY	chcore_v7m.h	162;"	d
+CORTEX_MINIMUM_PRIORITY	chcore.h	71;"	d
+CORTEX_MODEL	LPC11xx/cmparams.h	38;"	d
+CORTEX_MODEL	LPC122x/cmparams.h	38;"	d
+CORTEX_MODEL	LPC13xx/cmparams.h	38;"	d
+CORTEX_MODEL	LPC8xx/cmparams.h	41;"	d
+CORTEX_MODEL	SAM4L/cmparams.h	38;"	d
+CORTEX_MODEL	STM32F0xx/cmparams.h	38;"	d
+CORTEX_MODEL	STM32F1xx/cmparams.h	38;"	d
+CORTEX_MODEL	STM32F2xx/cmparams.h	38;"	d
+CORTEX_MODEL	STM32F3xx/cmparams.h	38;"	d
+CORTEX_MODEL	STM32F4xx/cmparams.h	38;"	d
+CORTEX_MODEL	STM32L1xx/cmparams.h	38;"	d
+CORTEX_PRIGROUP_INIT	chcore_v7m.h	141;"	d
+CORTEX_PRIORITY_BITS	LPC11xx/cmparams.h	58;"	d
+CORTEX_PRIORITY_BITS	LPC122x/cmparams.h	58;"	d
+CORTEX_PRIORITY_BITS	LPC13xx/cmparams.h	58;"	d
+CORTEX_PRIORITY_BITS	LPC8xx/cmparams.h	56;"	d
+CORTEX_PRIORITY_BITS	SAM4L/cmparams.h	58;"	d
+CORTEX_PRIORITY_BITS	STM32F0xx/cmparams.h	58;"	d
+CORTEX_PRIORITY_BITS	STM32F1xx/cmparams.h	58;"	d
+CORTEX_PRIORITY_BITS	STM32F2xx/cmparams.h	58;"	d
+CORTEX_PRIORITY_BITS	STM32F3xx/cmparams.h	58;"	d
+CORTEX_PRIORITY_BITS	STM32F4xx/cmparams.h	58;"	d
+CORTEX_PRIORITY_BITS	STM32L1xx/cmparams.h	58;"	d
+CORTEX_PRIORITY_LEVELS	chcore.h	64;"	d
+CORTEX_PRIORITY_MASK	chcore.h	98;"	d
+CORTEX_PRIORITY_PENDSV	chcore_v6m.h	42;"	d
+CORTEX_PRIORITY_PENDSV	chcore_v7m.h	172;"	d
+CORTEX_PRIORITY_SVCALL	chcore_v7m.h	122;"	d
+CORTEX_PRIORITY_SYSTICK	chcore_v6m.h	91;"	d
+CORTEX_PRIORITY_SYSTICK	chcore_v7m.h	88;"	d
+CORTEX_SIMPLIFIED_PRIORITY	chcore_v7m.h	111;"	d
+CORTEX_USE_FPU	chcore_v7m.h	99;"	d
+CORTEX_VTOR_INIT	chcore_v7m.h	132;"	d
+CPPFLAGS	rules.mk	/^CPPFLAGS  = $(MCFLAGS) $(OPT) $(CPPOPT) $(CPPWARN) -Wa,-alms=$(LSTDIR)\/$(notdir $(<:.cpp=.lst)) $(DEFS)$/;"	m
+CPPOPT	rules.mk	/^CPPOPT = $(USE_CPPOPT)$/;"	m
+CRT0_CALL_CONSTRUCTORS	crt0.c	109;"	d	file:
+CRT0_CALL_DESTRUCTORS	crt0.c	116;"	d	file:
+CRT0_CONTROL_INIT	crt0.c	74;"	d	file:
+CRT0_INIT_BSS	crt0.c	102;"	d	file:
+CRT0_INIT_DATA	crt0.c	95;"	d	file:
+CRT0_INIT_STACKS	crt0.c	88;"	d	file:
+CRT0_STACKS_FILL_PATTERN	crt0.c	81;"	d	file:
+DEFS	rules.mk	/^DEFS      = $(DDEFS) $(UDEFS)$/;"	m
+FALSE	chcore.h	38;"	d
+FALSE	crt0.c	32;"	d	file:
+FPCCR_ASPEN	crt0.c	42;"	d	file:
+FPCCR_LSPEN	crt0.c	43;"	d	file:
+IINCDIR	rules.mk	/^IINCDIR   = $(patsubst %,-I%,$(INCDIR) $(DINCDIR) $(UINCDIR))$/;"	m
+INLINE	chtypes.h	52;"	d
+LDFLAGS	rules.mk	/^  LDFLAGS = $(MCFLAGS) -nostartfiles -T$(LDSCRIPT) -Wl,-Map=$(BUILDDIR)\/$(PROJECT).map,--cref,--no-warn-mismatch $(LLIBDIR)$/;"	m
+LDFLAGS	rules.mk	/^  LDFLAGS = $(MCFLAGS) -nostartfiles -T$(LDSCRIPT) -Wl,-Map=$(BUILDDIR)\/$(PROJECT).map,--cref,--no-warn-mismatch,--gc-sections $(LLIBDIR)$/;"	m
+LIBS	rules.mk	/^LIBS      = $(DLIBS) $(ULIBS)$/;"	m
+LLIBDIR	rules.mk	/^LLIBDIR   = $(patsubst %,-L%,$(DLIBDIR) $(ULIBDIR))$/;"	m
+LSTDIR	rules.mk	/^LSTDIR    = $(BUILDDIR)\/lst$/;"	m
+MCFLAGS	rules.mk	/^MCFLAGS   = -mcpu=$(MCU)$/;"	m
+NMIVector	chcore_v6m.c	/^void NMIVector(void) {$/;"	f
+NUM_VECTORS	STM32F1xx/vectors.c	53;"	d	file:
+NUM_VECTORS	STM32F1xx/vectors.c	55;"	d	file:
+NUM_VECTORS	STM32F1xx/vectors.c	57;"	d	file:
+NUM_VECTORS	STM32F1xx/vectors.c	59;"	d	file:
+OBJDIR	rules.mk	/^OBJDIR    = $(BUILDDIR)\/obj$/;"	m
+OBJS	rules.mk	/^OBJS	  = $(ASMXOBJS) $(ASMOBJS) $(ACOBJS) $(TCOBJS) $(ACPPOBJS) $(TCPPOBJS)$/;"	m
+ODFLAGS	rules.mk	/^ODFLAGS	  = -x --syms$/;"	m
+OPT	rules.mk	/^OPT = $(USE_OPT)$/;"	m
+OUTFILES	rules.mk	/^OUTFILES = $(BUILDDIR)\/$(PROJECT).elf $(BUILDDIR)\/$(PROJECT).hex \\$/;"	m
+PACK_STRUCT_BEGIN	chtypes.h	70;"	d
+PACK_STRUCT_END	chtypes.h	76;"	d
+PACK_STRUCT_STRUCT	chtypes.h	64;"	d
+PORTASM	LPC11xx/port.mk	/^PORTASM =$/;"	m
+PORTASM	LPC122x/port.mk	/^PORTASM =$/;"	m
+PORTASM	LPC13xx/port.mk	/^PORTASM =$/;"	m
+PORTASM	LPC8xx/port.mk	/^PORTASM =$/;"	m
+PORTASM	SAM4L/port.mk	/^PORTASM =$/;"	m
+PORTASM	STM32F0xx/port.mk	/^PORTASM =$/;"	m
+PORTASM	STM32F1xx/port.mk	/^PORTASM =$/;"	m
+PORTASM	STM32F2xx/port.mk	/^PORTASM =$/;"	m
+PORTASM	STM32F3xx/port.mk	/^PORTASM =$/;"	m
+PORTASM	STM32F4xx/port.mk	/^PORTASM =$/;"	m
+PORTASM	STM32L1xx/port.mk	/^PORTASM =$/;"	m
+PORTINC	LPC11xx/port.mk	/^PORTINC = ${CHIBIOS}\/os\/ports\/common\/ARMCMx\/CMSIS\/include \\$/;"	m
+PORTINC	LPC122x/port.mk	/^PORTINC = ${CHIBIOS}\/os\/ports\/common\/ARMCMx\/CMSIS\/include \\$/;"	m
+PORTINC	LPC13xx/port.mk	/^PORTINC = ${CHIBIOS}\/os\/ports\/common\/ARMCMx\/CMSIS\/include \\$/;"	m
+PORTINC	LPC8xx/port.mk	/^PORTINC = ${CHIBIOS}\/os\/ports\/common\/ARMCMx\/CMSIS\/include \\$/;"	m
+PORTINC	SAM4L/port.mk	/^PORTINC = ${CHIBIOS}\/os\/ports\/common\/ARMCMx\/CMSIS\/include \\$/;"	m
+PORTINC	STM32F0xx/port.mk	/^PORTINC = ${CHIBIOS}\/os\/ports\/common\/ARMCMx\/CMSIS\/include \\$/;"	m
+PORTINC	STM32F1xx/port.mk	/^PORTINC = ${CHIBIOS}\/os\/ports\/common\/ARMCMx\/CMSIS\/include \\$/;"	m
+PORTINC	STM32F2xx/port.mk	/^PORTINC = ${CHIBIOS}\/os\/ports\/common\/ARMCMx\/CMSIS\/include \\$/;"	m
+PORTINC	STM32F3xx/port.mk	/^PORTINC = ${CHIBIOS}\/os\/ports\/common\/ARMCMx\/CMSIS\/include \\$/;"	m
+PORTINC	STM32F4xx/port.mk	/^PORTINC = ${CHIBIOS}\/os\/ports\/common\/ARMCMx\/CMSIS\/include \\$/;"	m
+PORTINC	STM32L1xx/port.mk	/^PORTINC = ${CHIBIOS}\/os\/ports\/common\/ARMCMx\/CMSIS\/include \\$/;"	m
+PORTLD	LPC11xx/port.mk	/^PORTLD  = ${CHIBIOS}\/os\/ports\/GCC\/ARMCMx\/LPC11xx\/ld$/;"	m
+PORTLD	LPC122x/port.mk	/^PORTLD  = ${CHIBIOS}\/os\/ports\/GCC\/ARMCMx\/LPC122x\/ld$/;"	m
+PORTLD	LPC13xx/port.mk	/^PORTLD  = ${CHIBIOS}\/os\/ports\/GCC\/ARMCMx\/LPC13xx\/ld$/;"	m
+PORTLD	LPC8xx/port.mk	/^PORTLD  = ${CHIBIOS}\/os\/ports\/GCC\/ARMCMx\/LPC8xx\/ld$/;"	m
+PORTLD	SAM4L/port.mk	/^PORTLD  = ${CHIBIOS}\/os\/ports\/GCC\/ARMCMx\/SAM4L\/ld$/;"	m
+PORTLD	STM32F0xx/port.mk	/^PORTLD  = ${CHIBIOS}\/os\/ports\/GCC\/ARMCMx\/STM32F0xx\/ld$/;"	m
+PORTLD	STM32F1xx/port.mk	/^PORTLD  = ${CHIBIOS}\/os\/ports\/GCC\/ARMCMx\/STM32F1xx\/ld$/;"	m
+PORTLD	STM32F2xx/port.mk	/^PORTLD  = ${CHIBIOS}\/os\/ports\/GCC\/ARMCMx\/STM32F2xx\/ld$/;"	m
+PORTLD	STM32F3xx/port.mk	/^PORTLD  = ${CHIBIOS}\/os\/ports\/GCC\/ARMCMx\/STM32F3xx\/ld$/;"	m
+PORTLD	STM32F4xx/port.mk	/^PORTLD  = ${CHIBIOS}\/os\/ports\/GCC\/ARMCMx\/STM32F4xx\/ld$/;"	m
+PORTLD	STM32L1xx/port.mk	/^PORTLD  = ${CHIBIOS}\/os\/ports\/GCC\/ARMCMx\/STM32L1xx\/ld$/;"	m
+PORTSRC	LPC11xx/port.mk	/^PORTSRC = $(CHIBIOS)\/os\/ports\/GCC\/ARMCMx\/crt0.c \\$/;"	m
+PORTSRC	LPC122x/port.mk	/^PORTSRC = $(CHIBIOS)\/os\/ports\/GCC\/ARMCMx\/crt0.c \\$/;"	m
+PORTSRC	LPC13xx/port.mk	/^PORTSRC = $(CHIBIOS)\/os\/ports\/GCC\/ARMCMx\/crt0.c \\$/;"	m
+PORTSRC	LPC8xx/port.mk	/^PORTSRC = $(CHIBIOS)\/os\/ports\/GCC\/ARMCMx\/crt0.c \\$/;"	m
+PORTSRC	SAM4L/port.mk	/^PORTSRC = $(CHIBIOS)\/os\/ports\/GCC\/ARMCMx\/crt0.c \\$/;"	m
+PORTSRC	STM32F0xx/port.mk	/^PORTSRC = $(CHIBIOS)\/os\/ports\/GCC\/ARMCMx\/crt0.c \\$/;"	m
+PORTSRC	STM32F1xx/port.mk	/^PORTSRC = $(CHIBIOS)\/os\/ports\/GCC\/ARMCMx\/crt0.c \\$/;"	m
+PORTSRC	STM32F2xx/port.mk	/^PORTSRC = $(CHIBIOS)\/os\/ports\/GCC\/ARMCMx\/crt0.c \\$/;"	m
+PORTSRC	STM32F3xx/port.mk	/^PORTSRC = $(CHIBIOS)\/os\/ports\/GCC\/ARMCMx\/crt0.c \\$/;"	m
+PORTSRC	STM32F4xx/port.mk	/^PORTSRC = $(CHIBIOS)\/os\/ports\/GCC\/ARMCMx\/crt0.c \\$/;"	m
+PORTSRC	STM32L1xx/port.mk	/^PORTSRC = $(CHIBIOS)\/os\/ports\/GCC\/ARMCMx\/crt0.c \\$/;"	m
+PORT_FAST_IRQ_HANDLER	chcore_v6m.h	264;"	d
+PORT_FAST_IRQ_HANDLER	chcore_v7m.h	362;"	d
+PORT_IDLE_THREAD_STACK_SIZE	chcore_v6m.h	62;"	d
+PORT_IDLE_THREAD_STACK_SIZE	chcore_v7m.h	59;"	d
+PORT_INT_REQUIRED_STACK	chcore_v6m.h	75;"	d
+PORT_INT_REQUIRED_STACK	chcore_v7m.h	72;"	d
+PORT_IRQ_EPILOGUE	chcore_v6m.h	250;"	d
+PORT_IRQ_EPILOGUE	chcore_v7m.h	348;"	d
+PORT_IRQ_HANDLER	chcore_v6m.h	257;"	d
+PORT_IRQ_HANDLER	chcore_v7m.h	355;"	d
+PORT_IRQ_PROLOGUE	chcore_v6m.h	241;"	d
+PORT_IRQ_PROLOGUE	chcore_v7m.h	341;"	d
+PORT_OPTIMIZED_ISPREEMPTIONREQUIRED	chcore.h	170;"	d
+PendSVVector	chcore_v6m.c	/^void PendSVVector(void) {$/;"	f
+PendSVVector	chcore_v7m.c	/^void PendSVVector(void) {$/;"	f
+ROMCONST	chtypes.h	58;"	d
+ResetHandler	crt0.c	/^void ResetHandler(void) {$/;"	f
+SCB_CPACR	crt0.c	39;"	d	file:
+SCB_FPCCR	crt0.c	40;"	d	file:
+SCB_FPDSCR	crt0.c	41;"	d	file:
+SETUP_CONTEXT	chcore_v6m.h	207;"	d
+SETUP_CONTEXT	chcore_v7m.h	307;"	d
+SRCPATHS	rules.mk	/^SRCPATHS  = $(sort $(dir $(ASMXSRC)) $(dir $(ASMSRC)) $(dir $(ASRC)) $(dir $(TSRC)))$/;"	m
+STACK_ALIGN	chcore_v6m.h	219;"	d
+STACK_ALIGN	chcore_v7m.h	319;"	d
+SVCallVector	chcore_v7m.c	/^void SVCallVector(void) {$/;"	f
+SYMVAL	crt0.c	48;"	d	file:
+TCOBJS	rules.mk	/^TCOBJS    = $(addprefix $(OBJDIR)\/, $(notdir $(TCSRC:.c=.o)))$/;"	m
+TCPPOBJS	rules.mk	/^TCPPOBJS  = $(addprefix $(OBJDIR)\/, $(notdir $(TCPPSRC:.cpp=.o)))$/;"	m
+THD_WA_SIZE	chcore_v6m.h	224;"	d
+THD_WA_SIZE	chcore_v7m.h	324;"	d
+TRUE	chcore.h	41;"	d
+TRUE	crt0.c	36;"	d	file:
+TSRC	rules.mk	/^TSRC	  = $(TCSRC)$(TCPPSRC)$/;"	m
+VPATH	rules.mk	/^VPATH     = $(SRCPATHS)$/;"	m
+WORKING_AREA	chcore_v6m.h	234;"	d
+WORKING_AREA	chcore_v7m.h	334;"	d
+_CHCORE_H_	chcore.h	30;"	d
+_CHCORE_V6M_H_	chcore_v6m.h	30;"	d
+_CHCORE_V7M_H_	chcore_v7m.h	30;"	d
+_CHTYPES_H_	chtypes.h	30;"	d
+_CMPARAMS_H_	LPC11xx/cmparams.h	33;"	d
+_CMPARAMS_H_	LPC122x/cmparams.h	33;"	d
+_CMPARAMS_H_	LPC13xx/cmparams.h	33;"	d
+_CMPARAMS_H_	LPC8xx/cmparams.h	34;"	d
+_CMPARAMS_H_	SAM4L/cmparams.h	33;"	d
+_CMPARAMS_H_	STM32F0xx/cmparams.h	33;"	d
+_CMPARAMS_H_	STM32F1xx/cmparams.h	33;"	d
+_CMPARAMS_H_	STM32F2xx/cmparams.h	33;"	d
+_CMPARAMS_H_	STM32F3xx/cmparams.h	33;"	d
+_CMPARAMS_H_	STM32F4xx/cmparams.h	33;"	d
+_CMPARAMS_H_	STM32L1xx/cmparams.h	33;"	d
+__early_init	crt0.c	/^void __early_init(void) {}$/;"	f
+__late_init	crt0.c	/^void __late_init(void) {}$/;"	f
+_default_exit	crt0.c	/^void _default_exit(void) {$/;"	f
+_port_init	chcore_v7m.c	/^void _port_init(void) {$/;"	f
+_port_irq_epilogue	chcore_v6m.c	/^void _port_irq_epilogue(regarm_t lr) {$/;"	f
+_port_irq_epilogue	chcore_v7m.c	/^void _port_irq_epilogue(void) {$/;"	f
+_port_lock	chcore_v7m.c	/^void _port_lock(void) {$/;"	f
+_port_switch	chcore_v6m.c	/^void _port_switch(Thread *ntp, Thread *otp) {$/;"	f
+_port_switch	chcore_v7m.c	/^void _port_switch(Thread *ntp, Thread *otp) {$/;"	f
+_port_switch_from_isr	chcore_v6m.c	/^void _port_switch_from_isr(void) {$/;"	f
+_port_switch_from_isr	chcore_v7m.c	/^void _port_switch_from_isr(void) {$/;"	f
+_port_thread_start	chcore_v6m.c	/^void _port_thread_start(void) {$/;"	f
+_port_thread_start	chcore_v7m.c	/^void _port_thread_start(void) {$/;"	f
+_port_unlock	chcore_v7m.c	/^void _port_unlock(void) {$/;"	f
+_unhandled_exception	LPC11xx/vectors.c	/^void _unhandled_exception(void) {$/;"	f
+_unhandled_exception	LPC122x/vectors.c	/^void _unhandled_exception(void) {$/;"	f
+_unhandled_exception	LPC13xx/vectors.c	/^void _unhandled_exception(void) {$/;"	f
+_unhandled_exception	LPC8xx/vectors.c	/^void _unhandled_exception(void) {$/;"	f
+_unhandled_exception	SAM4L/vectors.c	/^void _unhandled_exception(void) {$/;"	f
+_unhandled_exception	STM32F0xx/vectors.c	/^void _unhandled_exception(void) {$/;"	f
+_unhandled_exception	STM32F1xx/vectors.c	/^void _unhandled_exception(void) {$/;"	f
+_unhandled_exception	STM32F2xx/vectors.c	/^void _unhandled_exception(void) {$/;"	f
+_unhandled_exception	STM32F3xx/vectors.c	/^void _unhandled_exception(void) {$/;"	f
+_unhandled_exception	STM32F4xx/vectors.c	/^void _unhandled_exception(void) {$/;"	f
+_unhandled_exception	STM32L1xx/vectors.c	/^void _unhandled_exception(void) {$/;"	f
+_vectors	LPC11xx/vectors.c	/^vectors_t _vectors = {$/;"	v
+_vectors	LPC122x/vectors.c	/^vectors_t _vectors = {$/;"	v
+_vectors	LPC13xx/vectors.c	/^vectors_t _vectors = {$/;"	v
+_vectors	LPC8xx/vectors.c	/^vectors_t _vectors = {$/;"	v
+_vectors	SAM4L/vectors.c	/^vectors_t _vectors = {$/;"	v
+_vectors	STM32F0xx/vectors.c	/^vectors_t _vectors = {$/;"	v
+_vectors	STM32F1xx/vectors.c	/^vectors_t _vectors = {$/;"	v
+_vectors	STM32F2xx/vectors.c	/^vectors_t _vectors = {$/;"	v
+_vectors	STM32F3xx/vectors.c	/^vectors_t _vectors = {$/;"	v
+_vectors	STM32F4xx/vectors.c	/^vectors_t _vectors = {$/;"	v
+_vectors	STM32L1xx/vectors.c	/^vectors_t _vectors = {$/;"	v
+bool_t	chtypes.h	/^typedef bool            bool_t;         \/**< Fast boolean type.             *\/$/;"	t
+busfault_vector	LPC11xx/vectors.c	/^  irq_vector_t  busfault_vector;$/;"	m	struct:__anon1	file:
+busfault_vector	LPC122x/vectors.c	/^  irq_vector_t  busfault_vector;$/;"	m	struct:__anon2	file:
+busfault_vector	LPC13xx/vectors.c	/^  irq_vector_t  busfault_vector;$/;"	m	struct:__anon3	file:
+busfault_vector	LPC8xx/vectors.c	/^  irq_vector_t  busfault_vector;$/;"	m	struct:__anon4	file:
+busfault_vector	SAM4L/vectors.c	/^  irq_vector_t  busfault_vector;$/;"	m	struct:__anon5	file:
+busfault_vector	STM32F0xx/vectors.c	/^  irq_vector_t  busfault_vector;$/;"	m	struct:__anon6	file:
+busfault_vector	STM32F1xx/vectors.c	/^  irq_vector_t  busfault_vector;$/;"	m	struct:__anon7	file:
+busfault_vector	STM32F2xx/vectors.c	/^  irq_vector_t  busfault_vector;$/;"	m	struct:__anon8	file:
+busfault_vector	STM32F3xx/vectors.c	/^  irq_vector_t  busfault_vector;$/;"	m	struct:__anon9	file:
+busfault_vector	STM32F4xx/vectors.c	/^  irq_vector_t  busfault_vector;$/;"	m	struct:__anon10	file:
+busfault_vector	STM32L1xx/vectors.c	/^  irq_vector_t  busfault_vector;$/;"	m	struct:__anon11	file:
+chSchIsPreemptionRequired	chcore.h	176;"	d
+chSchIsPreemptionRequired	chcore.h	180;"	d
+cnt_t	chtypes.h	/^typedef int32_t         cnt_t;          \/**< Resources counter.             *\/$/;"	t
+context	chcore_v6m.h	/^struct context {$/;"	s
+context	chcore_v7m.h	/^struct context {$/;"	s
+debugmonitor_vector	LPC11xx/vectors.c	/^  irq_vector_t  debugmonitor_vector;$/;"	m	struct:__anon1	file:
+debugmonitor_vector	LPC122x/vectors.c	/^  irq_vector_t  debugmonitor_vector;$/;"	m	struct:__anon2	file:
+debugmonitor_vector	LPC13xx/vectors.c	/^  irq_vector_t  debugmonitor_vector;$/;"	m	struct:__anon3	file:
+debugmonitor_vector	LPC8xx/vectors.c	/^  irq_vector_t  debugmonitor_vector;$/;"	m	struct:__anon4	file:
+debugmonitor_vector	SAM4L/vectors.c	/^  irq_vector_t  debugmonitor_vector;$/;"	m	struct:__anon5	file:
+debugmonitor_vector	STM32F0xx/vectors.c	/^  irq_vector_t  debugmonitor_vector;$/;"	m	struct:__anon6	file:
+debugmonitor_vector	STM32F1xx/vectors.c	/^  irq_vector_t  debugmonitor_vector;$/;"	m	struct:__anon7	file:
+debugmonitor_vector	STM32F2xx/vectors.c	/^  irq_vector_t  debugmonitor_vector;$/;"	m	struct:__anon8	file:
+debugmonitor_vector	STM32F3xx/vectors.c	/^  irq_vector_t  debugmonitor_vector;$/;"	m	struct:__anon9	file:
+debugmonitor_vector	STM32F4xx/vectors.c	/^  irq_vector_t  debugmonitor_vector;$/;"	m	struct:__anon10	file:
+debugmonitor_vector	STM32L1xx/vectors.c	/^  irq_vector_t  debugmonitor_vector;$/;"	m	struct:__anon11	file:
+eventid_t	chtypes.h	/^typedef int32_t         eventid_t;      \/**< Event Id.                      *\/$/;"	t
+eventmask_t	chtypes.h	/^typedef uint32_t        eventmask_t;    \/**< Event mask.                    *\/$/;"	t
+extctx	chcore.h	/^struct extctx {};$/;"	s
+extctx	chcore_v6m.h	/^struct extctx {$/;"	s
+extctx	chcore_v7m.h	/^struct extctx {$/;"	s
+fill32	crt0.c	54;"	d	file:
+flagsmask_t	chtypes.h	/^typedef uint32_t        flagsmask_t;    \/**< Event flags.                   *\/$/;"	t
+fpccr	chcore_v7m.h	/^  regarm_t      fpccr;$/;"	m	struct:extctx
+fpscr	chcore_v7m.h	/^  regarm_t      fpscr;$/;"	m	struct:extctx
+funcp_t	crt0.c	/^typedef void (*funcp_t)(void);$/;"	t	file:
+funcpp_t	crt0.c	/^typedef funcp_t * funcpp_t;$/;"	t	file:
+hardfault_vector	LPC11xx/vectors.c	/^  irq_vector_t  hardfault_vector;$/;"	m	struct:__anon1	file:
+hardfault_vector	LPC122x/vectors.c	/^  irq_vector_t  hardfault_vector;$/;"	m	struct:__anon2	file:
+hardfault_vector	LPC13xx/vectors.c	/^  irq_vector_t  hardfault_vector;$/;"	m	struct:__anon3	file:
+hardfault_vector	LPC8xx/vectors.c	/^  irq_vector_t  hardfault_vector;$/;"	m	struct:__anon4	file:
+hardfault_vector	SAM4L/vectors.c	/^  irq_vector_t  hardfault_vector;$/;"	m	struct:__anon5	file:
+hardfault_vector	STM32F0xx/vectors.c	/^  irq_vector_t  hardfault_vector;$/;"	m	struct:__anon6	file:
+hardfault_vector	STM32F1xx/vectors.c	/^  irq_vector_t  hardfault_vector;$/;"	m	struct:__anon7	file:
+hardfault_vector	STM32F2xx/vectors.c	/^  irq_vector_t  hardfault_vector;$/;"	m	struct:__anon8	file:
+hardfault_vector	STM32F3xx/vectors.c	/^  irq_vector_t  hardfault_vector;$/;"	m	struct:__anon9	file:
+hardfault_vector	STM32F4xx/vectors.c	/^  irq_vector_t  hardfault_vector;$/;"	m	struct:__anon10	file:
+hardfault_vector	STM32L1xx/vectors.c	/^  irq_vector_t  hardfault_vector;$/;"	m	struct:__anon11	file:
+init_stack	LPC11xx/vectors.c	/^  uint32_t      *init_stack;$/;"	m	struct:__anon1	file:
+init_stack	LPC122x/vectors.c	/^  uint32_t      *init_stack;$/;"	m	struct:__anon2	file:
+init_stack	LPC13xx/vectors.c	/^  uint32_t      *init_stack;$/;"	m	struct:__anon3	file:
+init_stack	LPC8xx/vectors.c	/^  uint32_t      *init_stack;$/;"	m	struct:__anon4	file:
+init_stack	SAM4L/vectors.c	/^  uint32_t      *init_stack;$/;"	m	struct:__anon5	file:
+init_stack	STM32F0xx/vectors.c	/^  uint32_t      *init_stack;$/;"	m	struct:__anon6	file:
+init_stack	STM32F1xx/vectors.c	/^  uint32_t      *init_stack;$/;"	m	struct:__anon7	file:
+init_stack	STM32F2xx/vectors.c	/^  uint32_t      *init_stack;$/;"	m	struct:__anon8	file:
+init_stack	STM32F3xx/vectors.c	/^  uint32_t      *init_stack;$/;"	m	struct:__anon9	file:
+init_stack	STM32F4xx/vectors.c	/^  uint32_t      *init_stack;$/;"	m	struct:__anon10	file:
+init_stack	STM32L1xx/vectors.c	/^  uint32_t      *init_stack;$/;"	m	struct:__anon11	file:
+intctx	chcore.h	/^struct intctx {};$/;"	s
+intctx	chcore_v6m.h	/^struct intctx {$/;"	s
+intctx	chcore_v7m.h	/^struct intctx {$/;"	s
+irq_vector_t	LPC11xx/vectors.c	/^typedef void  (*irq_vector_t)(void);$/;"	t	file:
+irq_vector_t	LPC122x/vectors.c	/^typedef void  (*irq_vector_t)(void);$/;"	t	file:
+irq_vector_t	LPC13xx/vectors.c	/^typedef void  (*irq_vector_t)(void);$/;"	t	file:
+irq_vector_t	LPC8xx/vectors.c	/^typedef void  (*irq_vector_t)(void);$/;"	t	file:
+irq_vector_t	SAM4L/vectors.c	/^typedef void  (*irq_vector_t)(void);$/;"	t	file:
+irq_vector_t	STM32F0xx/vectors.c	/^typedef void  (*irq_vector_t)(void);$/;"	t	file:
+irq_vector_t	STM32F1xx/vectors.c	/^typedef void  (*irq_vector_t)(void);$/;"	t	file:
+irq_vector_t	STM32F2xx/vectors.c	/^typedef void  (*irq_vector_t)(void);$/;"	t	file:
+irq_vector_t	STM32F3xx/vectors.c	/^typedef void  (*irq_vector_t)(void);$/;"	t	file:
+irq_vector_t	STM32F4xx/vectors.c	/^typedef void  (*irq_vector_t)(void);$/;"	t	file:
+irq_vector_t	STM32L1xx/vectors.c	/^typedef void  (*irq_vector_t)(void);$/;"	t	file:
+lr	chcore_v6m.h	/^  regarm_t      lr;$/;"	m	struct:intctx
+lr	chcore_v7m.h	/^  regarm_t      lr;$/;"	m	struct:intctx
+lr_thd	chcore_v6m.h	/^  regarm_t      lr_thd;$/;"	m	struct:extctx
+lr_thd	chcore_v7m.h	/^  regarm_t      lr_thd;$/;"	m	struct:extctx
+memmanage_vector	LPC11xx/vectors.c	/^  irq_vector_t  memmanage_vector;$/;"	m	struct:__anon1	file:
+memmanage_vector	LPC122x/vectors.c	/^  irq_vector_t  memmanage_vector;$/;"	m	struct:__anon2	file:
+memmanage_vector	LPC13xx/vectors.c	/^  irq_vector_t  memmanage_vector;$/;"	m	struct:__anon3	file:
+memmanage_vector	LPC8xx/vectors.c	/^  irq_vector_t  memmanage_vector;$/;"	m	struct:__anon4	file:
+memmanage_vector	SAM4L/vectors.c	/^  irq_vector_t  memmanage_vector;$/;"	m	struct:__anon5	file:
+memmanage_vector	STM32F0xx/vectors.c	/^  irq_vector_t  memmanage_vector;$/;"	m	struct:__anon6	file:
+memmanage_vector	STM32F1xx/vectors.c	/^  irq_vector_t  memmanage_vector;$/;"	m	struct:__anon7	file:
+memmanage_vector	STM32F2xx/vectors.c	/^  irq_vector_t  memmanage_vector;$/;"	m	struct:__anon8	file:
+memmanage_vector	STM32F3xx/vectors.c	/^  irq_vector_t  memmanage_vector;$/;"	m	struct:__anon9	file:
+memmanage_vector	STM32F4xx/vectors.c	/^  irq_vector_t  memmanage_vector;$/;"	m	struct:__anon10	file:
+memmanage_vector	STM32L1xx/vectors.c	/^  irq_vector_t  memmanage_vector;$/;"	m	struct:__anon11	file:
+msg_t	chtypes.h	/^typedef int32_t         msg_t;          \/**< Inter-thread message.          *\/$/;"	t
+nmi_vector	LPC11xx/vectors.c	/^  irq_vector_t  nmi_vector;$/;"	m	struct:__anon1	file:
+nmi_vector	LPC122x/vectors.c	/^  irq_vector_t  nmi_vector;$/;"	m	struct:__anon2	file:
+nmi_vector	LPC13xx/vectors.c	/^  irq_vector_t  nmi_vector;$/;"	m	struct:__anon3	file:
+nmi_vector	LPC8xx/vectors.c	/^  irq_vector_t  nmi_vector;$/;"	m	struct:__anon4	file:
+nmi_vector	SAM4L/vectors.c	/^  irq_vector_t  nmi_vector;$/;"	m	struct:__anon5	file:
+nmi_vector	STM32F0xx/vectors.c	/^  irq_vector_t  nmi_vector;$/;"	m	struct:__anon6	file:
+nmi_vector	STM32F1xx/vectors.c	/^  irq_vector_t  nmi_vector;$/;"	m	struct:__anon7	file:
+nmi_vector	STM32F2xx/vectors.c	/^  irq_vector_t  nmi_vector;$/;"	m	struct:__anon8	file:
+nmi_vector	STM32F3xx/vectors.c	/^  irq_vector_t  nmi_vector;$/;"	m	struct:__anon9	file:
+nmi_vector	STM32F4xx/vectors.c	/^  irq_vector_t  nmi_vector;$/;"	m	struct:__anon10	file:
+nmi_vector	STM32L1xx/vectors.c	/^  irq_vector_t  nmi_vector;$/;"	m	struct:__anon11	file:
+pc	chcore_v6m.h	/^  regarm_t      pc;$/;"	m	struct:extctx
+pc	chcore_v7m.h	/^  regarm_t      pc;$/;"	m	struct:extctx
+pendsv_vector	LPC11xx/vectors.c	/^  irq_vector_t  pendsv_vector;$/;"	m	struct:__anon1	file:
+pendsv_vector	LPC122x/vectors.c	/^  irq_vector_t  pendsv_vector;$/;"	m	struct:__anon2	file:
+pendsv_vector	LPC13xx/vectors.c	/^  irq_vector_t  pendsv_vector;$/;"	m	struct:__anon3	file:
+pendsv_vector	LPC8xx/vectors.c	/^  irq_vector_t  pendsv_vector;$/;"	m	struct:__anon4	file:
+pendsv_vector	SAM4L/vectors.c	/^  irq_vector_t  pendsv_vector;$/;"	m	struct:__anon5	file:
+pendsv_vector	STM32F0xx/vectors.c	/^  irq_vector_t  pendsv_vector;$/;"	m	struct:__anon6	file:
+pendsv_vector	STM32F1xx/vectors.c	/^  irq_vector_t  pendsv_vector;$/;"	m	struct:__anon7	file:
+pendsv_vector	STM32F2xx/vectors.c	/^  irq_vector_t  pendsv_vector;$/;"	m	struct:__anon8	file:
+pendsv_vector	STM32F3xx/vectors.c	/^  irq_vector_t  pendsv_vector;$/;"	m	struct:__anon9	file:
+pendsv_vector	STM32F4xx/vectors.c	/^  irq_vector_t  pendsv_vector;$/;"	m	struct:__anon10	file:
+pendsv_vector	STM32L1xx/vectors.c	/^  irq_vector_t  pendsv_vector;$/;"	m	struct:__anon11	file:
+port_disable	chcore_v6m.h	312;"	d
+port_disable	chcore_v7m.h	435;"	d
+port_enable	chcore_v6m.h	322;"	d
+port_enable	chcore_v7m.h	457;"	d
+port_enable	chcore_v7m.h	463;"	d
+port_halt	chcore.c	/^void port_halt(void) {$/;"	f
+port_init	chcore_v6m.h	269;"	d
+port_init	chcore_v7m.h	367;"	d
+port_lock	chcore_v6m.h	282;"	d
+port_lock	chcore_v7m.h	377;"	d
+port_lock	chcore_v7m.h	382;"	d
+port_lock	chcore_v7m.h	387;"	d
+port_lock_from_isr	chcore_v6m.h	298;"	d
+port_lock_from_isr	chcore_v7m.h	418;"	d
+port_suspend	chcore_v6m.h	317;"	d
+port_suspend	chcore_v7m.h	443;"	d
+port_suspend	chcore_v7m.h	449;"	d
+port_switch	chcore_v6m.h	349;"	d
+port_switch	chcore_v6m.h	351;"	d
+port_switch	chcore_v7m.h	493;"	d
+port_switch	chcore_v7m.h	495;"	d
+port_unlock	chcore_v6m.h	289;"	d
+port_unlock	chcore_v7m.h	398;"	d
+port_unlock	chcore_v7m.h	403;"	d
+port_unlock	chcore_v7m.h	408;"	d
+port_unlock_from_isr	chcore_v6m.h	307;"	d
+port_unlock_from_isr	chcore_v7m.h	427;"	d
+port_wait_for_interrupt	chcore_v6m.h	333;"	d
+port_wait_for_interrupt	chcore_v6m.h	335;"	d
+port_wait_for_interrupt	chcore_v7m.h	475;"	d
+port_wait_for_interrupt	chcore_v7m.h	479;"	d
+r0	chcore_v6m.h	/^  regarm_t      r0;$/;"	m	struct:extctx
+r0	chcore_v7m.h	/^  regarm_t      r0;$/;"	m	struct:extctx
+r1	chcore_v6m.h	/^  regarm_t      r1;$/;"	m	struct:extctx
+r1	chcore_v7m.h	/^  regarm_t      r1;$/;"	m	struct:extctx
+r10	chcore_v6m.h	/^  regarm_t      r10;$/;"	m	struct:intctx
+r10	chcore_v7m.h	/^  regarm_t      r10;$/;"	m	struct:intctx
+r11	chcore_v6m.h	/^  regarm_t      r11;$/;"	m	struct:intctx
+r11	chcore_v7m.h	/^  regarm_t      r11;$/;"	m	struct:intctx
+r12	chcore_v6m.h	/^  regarm_t      r12;$/;"	m	struct:extctx
+r12	chcore_v7m.h	/^  regarm_t      r12;$/;"	m	struct:extctx
+r13	chcore_v6m.h	/^  struct intctx *r13;$/;"	m	struct:context	typeref:struct:context::intctx
+r13	chcore_v7m.h	/^  struct intctx *r13;$/;"	m	struct:context	typeref:struct:context::intctx
+r2	chcore_v6m.h	/^  regarm_t      r2;$/;"	m	struct:extctx
+r2	chcore_v7m.h	/^  regarm_t      r2;$/;"	m	struct:extctx
+r3	chcore_v6m.h	/^  regarm_t      r3;$/;"	m	struct:extctx
+r3	chcore_v7m.h	/^  regarm_t      r3;$/;"	m	struct:extctx
+r4	chcore_v6m.h	/^  regarm_t      r4;$/;"	m	struct:intctx
+r4	chcore_v7m.h	/^  regarm_t      r4;$/;"	m	struct:intctx
+r5	chcore_v6m.h	/^  regarm_t      r5;$/;"	m	struct:intctx
+r5	chcore_v7m.h	/^  regarm_t      r5;$/;"	m	struct:intctx
+r6	chcore_v6m.h	/^  regarm_t      r6;$/;"	m	struct:intctx
+r6	chcore_v7m.h	/^  regarm_t      r6;$/;"	m	struct:intctx
+r7	chcore_v6m.h	/^  regarm_t      r7;$/;"	m	struct:intctx
+r7	chcore_v7m.h	/^  regarm_t      r7;$/;"	m	struct:intctx
+r8	chcore_v6m.h	/^  regarm_t      r8;$/;"	m	struct:intctx
+r8	chcore_v7m.h	/^  regarm_t      r8;$/;"	m	struct:intctx
+r9	chcore_v6m.h	/^  regarm_t      r9;$/;"	m	struct:intctx
+r9	chcore_v7m.h	/^  regarm_t      r9;$/;"	m	struct:intctx
+regarm_t	chcore_v6m.h	/^typedef void *regarm_t;$/;"	t
+regarm_t	chcore_v7m.h	/^typedef void *regarm_t;$/;"	t
+reset_vector	LPC11xx/vectors.c	/^  irq_vector_t  reset_vector;$/;"	m	struct:__anon1	file:
+reset_vector	LPC122x/vectors.c	/^  irq_vector_t  reset_vector;$/;"	m	struct:__anon2	file:
+reset_vector	LPC13xx/vectors.c	/^  irq_vector_t  reset_vector;$/;"	m	struct:__anon3	file:
+reset_vector	LPC8xx/vectors.c	/^  irq_vector_t  reset_vector;$/;"	m	struct:__anon4	file:
+reset_vector	SAM4L/vectors.c	/^  irq_vector_t  reset_vector;$/;"	m	struct:__anon5	file:
+reset_vector	STM32F0xx/vectors.c	/^  irq_vector_t  reset_vector;$/;"	m	struct:__anon6	file:
+reset_vector	STM32F1xx/vectors.c	/^  irq_vector_t  reset_vector;$/;"	m	struct:__anon7	file:
+reset_vector	STM32F2xx/vectors.c	/^  irq_vector_t  reset_vector;$/;"	m	struct:__anon8	file:
+reset_vector	STM32F3xx/vectors.c	/^  irq_vector_t  reset_vector;$/;"	m	struct:__anon9	file:
+reset_vector	STM32F4xx/vectors.c	/^  irq_vector_t  reset_vector;$/;"	m	struct:__anon10	file:
+reset_vector	STM32L1xx/vectors.c	/^  irq_vector_t  reset_vector;$/;"	m	struct:__anon11	file:
+s0	chcore_v7m.h	/^  regarm_t      s0;$/;"	m	struct:extctx
+s1	chcore_v7m.h	/^  regarm_t      s1;$/;"	m	struct:extctx
+s10	chcore_v7m.h	/^  regarm_t      s10;$/;"	m	struct:extctx
+s11	chcore_v7m.h	/^  regarm_t      s11;$/;"	m	struct:extctx
+s12	chcore_v7m.h	/^  regarm_t      s12;$/;"	m	struct:extctx
+s13	chcore_v7m.h	/^  regarm_t      s13;$/;"	m	struct:extctx
+s14	chcore_v7m.h	/^  regarm_t      s14;$/;"	m	struct:extctx
+s15	chcore_v7m.h	/^  regarm_t      s15;$/;"	m	struct:extctx
+s16	chcore_v7m.h	/^  regarm_t      s16;$/;"	m	struct:intctx
+s17	chcore_v7m.h	/^  regarm_t      s17;$/;"	m	struct:intctx
+s18	chcore_v7m.h	/^  regarm_t      s18;$/;"	m	struct:intctx
+s19	chcore_v7m.h	/^  regarm_t      s19;$/;"	m	struct:intctx
+s2	chcore_v7m.h	/^  regarm_t      s2;$/;"	m	struct:extctx
+s20	chcore_v7m.h	/^  regarm_t      s20;$/;"	m	struct:intctx
+s21	chcore_v7m.h	/^  regarm_t      s21;$/;"	m	struct:intctx
+s22	chcore_v7m.h	/^  regarm_t      s22;$/;"	m	struct:intctx
+s23	chcore_v7m.h	/^  regarm_t      s23;$/;"	m	struct:intctx
+s24	chcore_v7m.h	/^  regarm_t      s24;$/;"	m	struct:intctx
+s25	chcore_v7m.h	/^  regarm_t      s25;$/;"	m	struct:intctx
+s26	chcore_v7m.h	/^  regarm_t      s26;$/;"	m	struct:intctx
+s27	chcore_v7m.h	/^  regarm_t      s27;$/;"	m	struct:intctx
+s28	chcore_v7m.h	/^  regarm_t      s28;$/;"	m	struct:intctx
+s29	chcore_v7m.h	/^  regarm_t      s29;$/;"	m	struct:intctx
+s3	chcore_v7m.h	/^  regarm_t      s3;$/;"	m	struct:extctx
+s30	chcore_v7m.h	/^  regarm_t      s30;$/;"	m	struct:intctx
+s31	chcore_v7m.h	/^  regarm_t      s31;$/;"	m	struct:intctx
+s4	chcore_v7m.h	/^  regarm_t      s4;$/;"	m	struct:extctx
+s5	chcore_v7m.h	/^  regarm_t      s5;$/;"	m	struct:extctx
+s6	chcore_v7m.h	/^  regarm_t      s6;$/;"	m	struct:extctx
+s7	chcore_v7m.h	/^  regarm_t      s7;$/;"	m	struct:extctx
+s8	chcore_v7m.h	/^  regarm_t      s8;$/;"	m	struct:extctx
+s9	chcore_v7m.h	/^  regarm_t      s9;$/;"	m	struct:extctx
+stkalign_t	chcore.h	/^typedef uint64_t stkalign_t;$/;"	t
+stkalign_t	chcore_v6m.h	/^typedef uint64_t stkalign_t __attribute__ ((aligned (8)));$/;"	t
+stkalign_t	chcore_v7m.h	/^typedef uint64_t stkalign_t __attribute__ ((aligned (8)));$/;"	t
+svcall_vector	LPC11xx/vectors.c	/^  irq_vector_t  svcall_vector;$/;"	m	struct:__anon1	file:
+svcall_vector	LPC122x/vectors.c	/^  irq_vector_t  svcall_vector;$/;"	m	struct:__anon2	file:
+svcall_vector	LPC13xx/vectors.c	/^  irq_vector_t  svcall_vector;$/;"	m	struct:__anon3	file:
+svcall_vector	LPC8xx/vectors.c	/^  irq_vector_t  svcall_vector;$/;"	m	struct:__anon4	file:
+svcall_vector	SAM4L/vectors.c	/^  irq_vector_t  svcall_vector;$/;"	m	struct:__anon5	file:
+svcall_vector	STM32F0xx/vectors.c	/^  irq_vector_t  svcall_vector;$/;"	m	struct:__anon6	file:
+svcall_vector	STM32F1xx/vectors.c	/^  irq_vector_t  svcall_vector;$/;"	m	struct:__anon7	file:
+svcall_vector	STM32F2xx/vectors.c	/^  irq_vector_t  svcall_vector;$/;"	m	struct:__anon8	file:
+svcall_vector	STM32F3xx/vectors.c	/^  irq_vector_t  svcall_vector;$/;"	m	struct:__anon9	file:
+svcall_vector	STM32F4xx/vectors.c	/^  irq_vector_t  svcall_vector;$/;"	m	struct:__anon10	file:
+svcall_vector	STM32L1xx/vectors.c	/^  irq_vector_t  svcall_vector;$/;"	m	struct:__anon11	file:
+systick_vector	LPC11xx/vectors.c	/^  irq_vector_t  systick_vector;$/;"	m	struct:__anon1	file:
+systick_vector	LPC122x/vectors.c	/^  irq_vector_t  systick_vector;$/;"	m	struct:__anon2	file:
+systick_vector	LPC13xx/vectors.c	/^  irq_vector_t  systick_vector;$/;"	m	struct:__anon3	file:
+systick_vector	LPC8xx/vectors.c	/^  irq_vector_t  systick_vector;$/;"	m	struct:__anon4	file:
+systick_vector	SAM4L/vectors.c	/^  irq_vector_t  systick_vector;$/;"	m	struct:__anon5	file:
+systick_vector	STM32F0xx/vectors.c	/^  irq_vector_t  systick_vector;$/;"	m	struct:__anon6	file:
+systick_vector	STM32F1xx/vectors.c	/^  irq_vector_t  systick_vector;$/;"	m	struct:__anon7	file:
+systick_vector	STM32F2xx/vectors.c	/^  irq_vector_t  systick_vector;$/;"	m	struct:__anon8	file:
+systick_vector	STM32F3xx/vectors.c	/^  irq_vector_t  systick_vector;$/;"	m	struct:__anon9	file:
+systick_vector	STM32F4xx/vectors.c	/^  irq_vector_t  systick_vector;$/;"	m	struct:__anon10	file:
+systick_vector	STM32L1xx/vectors.c	/^  irq_vector_t  systick_vector;$/;"	m	struct:__anon11	file:
+systime_t	chtypes.h	/^typedef uint32_t        systime_t;      \/**< System time.                   *\/$/;"	t
+tmode_t	chtypes.h	/^typedef uint8_t         tmode_t;        \/**< Thread flags.                  *\/$/;"	t
+tprio_t	chtypes.h	/^typedef uint32_t        tprio_t;        \/**< Thread priority.               *\/$/;"	t
+trefs_t	chtypes.h	/^typedef uint8_t         trefs_t;        \/**< Thread references counter.     *\/$/;"	t
+tslices_t	chtypes.h	/^typedef uint8_t         tslices_t;      \/**< Thread time slices counter.    *\/$/;"	t
+tstate_t	chtypes.h	/^typedef uint8_t         tstate_t;       \/**< Thread state.                  *\/$/;"	t
+usagefault_vector	LPC11xx/vectors.c	/^  irq_vector_t  usagefault_vector;$/;"	m	struct:__anon1	file:
+usagefault_vector	LPC122x/vectors.c	/^  irq_vector_t  usagefault_vector;$/;"	m	struct:__anon2	file:
+usagefault_vector	LPC13xx/vectors.c	/^  irq_vector_t  usagefault_vector;$/;"	m	struct:__anon3	file:
+usagefault_vector	LPC8xx/vectors.c	/^  irq_vector_t  usagefault_vector;$/;"	m	struct:__anon4	file:
+usagefault_vector	SAM4L/vectors.c	/^  irq_vector_t  usagefault_vector;$/;"	m	struct:__anon5	file:
+usagefault_vector	STM32F0xx/vectors.c	/^  irq_vector_t  usagefault_vector;$/;"	m	struct:__anon6	file:
+usagefault_vector	STM32F1xx/vectors.c	/^  irq_vector_t  usagefault_vector;$/;"	m	struct:__anon7	file:
+usagefault_vector	STM32F2xx/vectors.c	/^  irq_vector_t  usagefault_vector;$/;"	m	struct:__anon8	file:
+usagefault_vector	STM32F3xx/vectors.c	/^  irq_vector_t  usagefault_vector;$/;"	m	struct:__anon9	file:
+usagefault_vector	STM32F4xx/vectors.c	/^  irq_vector_t  usagefault_vector;$/;"	m	struct:__anon10	file:
+usagefault_vector	STM32L1xx/vectors.c	/^  irq_vector_t  usagefault_vector;$/;"	m	struct:__anon11	file:
+vector1c	LPC11xx/vectors.c	/^  irq_vector_t  vector1c;$/;"	m	struct:__anon1	file:
+vector1c	LPC122x/vectors.c	/^  irq_vector_t  vector1c;$/;"	m	struct:__anon2	file:
+vector1c	LPC13xx/vectors.c	/^  irq_vector_t  vector1c;$/;"	m	struct:__anon3	file:
+vector1c	LPC8xx/vectors.c	/^  irq_vector_t  vector1c;$/;"	m	struct:__anon4	file:
+vector1c	SAM4L/vectors.c	/^  irq_vector_t  vector1c;$/;"	m	struct:__anon5	file:
+vector1c	STM32F0xx/vectors.c	/^  irq_vector_t  vector1c;$/;"	m	struct:__anon6	file:
+vector1c	STM32F1xx/vectors.c	/^  irq_vector_t  vector1c;$/;"	m	struct:__anon7	file:
+vector1c	STM32F2xx/vectors.c	/^  irq_vector_t  vector1c;$/;"	m	struct:__anon8	file:
+vector1c	STM32F3xx/vectors.c	/^  irq_vector_t  vector1c;$/;"	m	struct:__anon9	file:
+vector1c	STM32F4xx/vectors.c	/^  irq_vector_t  vector1c;$/;"	m	struct:__anon10	file:
+vector1c	STM32L1xx/vectors.c	/^  irq_vector_t  vector1c;$/;"	m	struct:__anon11	file:
+vector20	LPC11xx/vectors.c	/^  irq_vector_t  vector20;$/;"	m	struct:__anon1	file:
+vector20	LPC122x/vectors.c	/^  irq_vector_t  vector20;$/;"	m	struct:__anon2	file:
+vector20	LPC13xx/vectors.c	/^  irq_vector_t  vector20;$/;"	m	struct:__anon3	file:
+vector20	LPC8xx/vectors.c	/^  irq_vector_t  vector20;$/;"	m	struct:__anon4	file:
+vector20	SAM4L/vectors.c	/^  irq_vector_t  vector20;$/;"	m	struct:__anon5	file:
+vector20	STM32F0xx/vectors.c	/^  irq_vector_t  vector20;$/;"	m	struct:__anon6	file:
+vector20	STM32F1xx/vectors.c	/^  irq_vector_t  vector20;$/;"	m	struct:__anon7	file:
+vector20	STM32F2xx/vectors.c	/^  irq_vector_t  vector20;$/;"	m	struct:__anon8	file:
+vector20	STM32F3xx/vectors.c	/^  irq_vector_t  vector20;$/;"	m	struct:__anon9	file:
+vector20	STM32F4xx/vectors.c	/^  irq_vector_t  vector20;$/;"	m	struct:__anon10	file:
+vector20	STM32L1xx/vectors.c	/^  irq_vector_t  vector20;$/;"	m	struct:__anon11	file:
+vector24	LPC11xx/vectors.c	/^  irq_vector_t  vector24;$/;"	m	struct:__anon1	file:
+vector24	LPC122x/vectors.c	/^  irq_vector_t  vector24;$/;"	m	struct:__anon2	file:
+vector24	LPC13xx/vectors.c	/^  irq_vector_t  vector24;$/;"	m	struct:__anon3	file:
+vector24	LPC8xx/vectors.c	/^  irq_vector_t  vector24;$/;"	m	struct:__anon4	file:
+vector24	SAM4L/vectors.c	/^  irq_vector_t  vector24;$/;"	m	struct:__anon5	file:
+vector24	STM32F0xx/vectors.c	/^  irq_vector_t  vector24;$/;"	m	struct:__anon6	file:
+vector24	STM32F1xx/vectors.c	/^  irq_vector_t  vector24;$/;"	m	struct:__anon7	file:
+vector24	STM32F2xx/vectors.c	/^  irq_vector_t  vector24;$/;"	m	struct:__anon8	file:
+vector24	STM32F3xx/vectors.c	/^  irq_vector_t  vector24;$/;"	m	struct:__anon9	file:
+vector24	STM32F4xx/vectors.c	/^  irq_vector_t  vector24;$/;"	m	struct:__anon10	file:
+vector24	STM32L1xx/vectors.c	/^  irq_vector_t  vector24;$/;"	m	struct:__anon11	file:
+vector28	LPC11xx/vectors.c	/^  irq_vector_t  vector28;$/;"	m	struct:__anon1	file:
+vector28	LPC122x/vectors.c	/^  irq_vector_t  vector28;$/;"	m	struct:__anon2	file:
+vector28	LPC13xx/vectors.c	/^  irq_vector_t  vector28;$/;"	m	struct:__anon3	file:
+vector28	LPC8xx/vectors.c	/^  irq_vector_t  vector28;$/;"	m	struct:__anon4	file:
+vector28	SAM4L/vectors.c	/^  irq_vector_t  vector28;$/;"	m	struct:__anon5	file:
+vector28	STM32F0xx/vectors.c	/^  irq_vector_t  vector28;$/;"	m	struct:__anon6	file:
+vector28	STM32F1xx/vectors.c	/^  irq_vector_t  vector28;$/;"	m	struct:__anon7	file:
+vector28	STM32F2xx/vectors.c	/^  irq_vector_t  vector28;$/;"	m	struct:__anon8	file:
+vector28	STM32F3xx/vectors.c	/^  irq_vector_t  vector28;$/;"	m	struct:__anon9	file:
+vector28	STM32F4xx/vectors.c	/^  irq_vector_t  vector28;$/;"	m	struct:__anon10	file:
+vector28	STM32L1xx/vectors.c	/^  irq_vector_t  vector28;$/;"	m	struct:__anon11	file:
+vector34	LPC11xx/vectors.c	/^  irq_vector_t  vector34;$/;"	m	struct:__anon1	file:
+vector34	LPC122x/vectors.c	/^  irq_vector_t  vector34;$/;"	m	struct:__anon2	file:
+vector34	LPC13xx/vectors.c	/^  irq_vector_t  vector34;$/;"	m	struct:__anon3	file:
+vector34	LPC8xx/vectors.c	/^  irq_vector_t  vector34;$/;"	m	struct:__anon4	file:
+vector34	SAM4L/vectors.c	/^  irq_vector_t  vector34;$/;"	m	struct:__anon5	file:
+vector34	STM32F0xx/vectors.c	/^  irq_vector_t  vector34;$/;"	m	struct:__anon6	file:
+vector34	STM32F1xx/vectors.c	/^  irq_vector_t  vector34;$/;"	m	struct:__anon7	file:
+vector34	STM32F2xx/vectors.c	/^  irq_vector_t  vector34;$/;"	m	struct:__anon8	file:
+vector34	STM32F3xx/vectors.c	/^  irq_vector_t  vector34;$/;"	m	struct:__anon9	file:
+vector34	STM32F4xx/vectors.c	/^  irq_vector_t  vector34;$/;"	m	struct:__anon10	file:
+vector34	STM32L1xx/vectors.c	/^  irq_vector_t  vector34;$/;"	m	struct:__anon11	file:
+vectors	LPC11xx/vectors.c	/^  irq_vector_t  vectors[32];$/;"	m	struct:__anon1	file:
+vectors	LPC122x/vectors.c	/^  irq_vector_t  vectors[32];$/;"	m	struct:__anon2	file:
+vectors	LPC13xx/vectors.c	/^  irq_vector_t  vectors[58];$/;"	m	struct:__anon3	file:
+vectors	LPC8xx/vectors.c	/^  irq_vector_t  vectors[32];$/;"	m	struct:__anon4	file:
+vectors	SAM4L/vectors.c	/^  irq_vector_t  vectors[80];$/;"	m	struct:__anon5	file:
+vectors	STM32F0xx/vectors.c	/^  irq_vector_t  vectors[32];$/;"	m	struct:__anon6	file:
+vectors	STM32F1xx/vectors.c	/^  irq_vector_t  vectors[NUM_VECTORS];$/;"	m	struct:__anon7	file:
+vectors	STM32F2xx/vectors.c	/^  irq_vector_t  vectors[81];$/;"	m	struct:__anon8	file:
+vectors	STM32F3xx/vectors.c	/^  irq_vector_t  vectors[82];$/;"	m	struct:__anon9	file:
+vectors	STM32F4xx/vectors.c	/^  irq_vector_t  vectors[91];$/;"	m	struct:__anon10	file:
+vectors	STM32L1xx/vectors.c	/^  irq_vector_t  vectors[45];$/;"	m	struct:__anon11	file:
+vectors_t	LPC11xx/vectors.c	/^} vectors_t;$/;"	t	typeref:struct:__anon1	file:
+vectors_t	LPC122x/vectors.c	/^} vectors_t;$/;"	t	typeref:struct:__anon2	file:
+vectors_t	LPC13xx/vectors.c	/^} vectors_t;$/;"	t	typeref:struct:__anon3	file:
+vectors_t	LPC8xx/vectors.c	/^} vectors_t;$/;"	t	typeref:struct:__anon4	file:
+vectors_t	SAM4L/vectors.c	/^} vectors_t;$/;"	t	typeref:struct:__anon5	file:
+vectors_t	STM32F0xx/vectors.c	/^} vectors_t;$/;"	t	typeref:struct:__anon6	file:
+vectors_t	STM32F1xx/vectors.c	/^} vectors_t;$/;"	t	typeref:struct:__anon7	file:
+vectors_t	STM32F2xx/vectors.c	/^} vectors_t;$/;"	t	typeref:struct:__anon8	file:
+vectors_t	STM32F3xx/vectors.c	/^} vectors_t;$/;"	t	typeref:struct:__anon9	file:
+vectors_t	STM32F4xx/vectors.c	/^} vectors_t;$/;"	t	typeref:struct:__anon10	file:
+vectors_t	STM32L1xx/vectors.c	/^} vectors_t;$/;"	t	typeref:struct:__anon11	file:
+xpsr	chcore_v6m.h	/^  regarm_t      xpsr;$/;"	m	struct:extctx
+xpsr	chcore_v7m.h	/^  regarm_t      xpsr;$/;"	m	struct:extctx

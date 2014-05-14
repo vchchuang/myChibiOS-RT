@@ -1,0 +1,174 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+H_LOCK	chheap.c	267;"	d	file:
+H_LOCK	chheap.c	271;"	d	file:
+H_LOCK	chheap.c	51;"	d	file:
+H_LOCK	chheap.c	54;"	d	file:
+H_UNLOCK	chheap.c	268;"	d	file:
+H_UNLOCK	chheap.c	272;"	d	file:
+H_UNLOCK	chheap.c	52;"	d	file:
+H_UNLOCK	chheap.c	55;"	d	file:
+LIMIT	chheap.c	176;"	d	file:
+_core_init	chmemcore.c	/^void _core_init(void) {$/;"	f
+_heap_init	chheap.c	/^void _heap_init(void) {$/;"	f
+_idle_thread	chsys.c	/^void _idle_thread(void *p) {$/;"	f
+_offsetof	chregistry.c	53;"	d	file:
+_scheduler_init	chschd.c	/^void _scheduler_init(void) {$/;"	f
+_thread_init	chthreads.c	/^Thread *_thread_init(Thread *tp, tprio_t prio) {$/;"	f
+_thread_memfill	chthreads.c	/^void _thread_memfill(uint8_t *startp, uint8_t *endp, uint8_t v) {$/;"	f
+_trace_init	chdebug.c	/^void _trace_init(void) {$/;"	f
+_vt_init	chvt.c	/^void _vt_init(void) {$/;"	f
+chCondBroadcast	chcond.c	/^void chCondBroadcast(CondVar *cp) {$/;"	f
+chCondBroadcastI	chcond.c	/^void chCondBroadcastI(CondVar *cp) {$/;"	f
+chCondInit	chcond.c	/^void chCondInit(CondVar *cp) {$/;"	f
+chCondSignal	chcond.c	/^void chCondSignal(CondVar *cp) {$/;"	f
+chCondSignalI	chcond.c	/^void chCondSignalI(CondVar *cp) {$/;"	f
+chCondWait	chcond.c	/^msg_t chCondWait(CondVar *cp) {$/;"	f
+chCondWaitS	chcond.c	/^msg_t chCondWaitS(CondVar *cp) {$/;"	f
+chCondWaitTimeout	chcond.c	/^msg_t chCondWaitTimeout(CondVar *cp, systime_t time) {$/;"	f
+chCondWaitTimeoutS	chcond.c	/^msg_t chCondWaitTimeoutS(CondVar *cp, systime_t time) {$/;"	f
+chCoreAlloc	chmemcore.c	/^void *chCoreAlloc(size_t size) {$/;"	f
+chCoreAllocI	chmemcore.c	/^void *chCoreAllocI(size_t size) {$/;"	f
+chCoreStatus	chmemcore.c	/^size_t chCoreStatus(void) {$/;"	f
+chDbgCheckClassI	chdebug.c	/^void chDbgCheckClassI(void) {$/;"	f
+chDbgCheckClassS	chdebug.c	/^void chDbgCheckClassS(void) {$/;"	f
+chDbgPanic	chdebug.c	/^void chDbgPanic(const char *msg) {$/;"	f
+chEvtAddEvents	chevents.c	/^eventmask_t chEvtAddEvents(eventmask_t mask) {$/;"	f
+chEvtBroadcastFlags	chevents.c	/^void chEvtBroadcastFlags(EventSource *esp, flagsmask_t flags) {$/;"	f
+chEvtBroadcastFlagsI	chevents.c	/^void chEvtBroadcastFlagsI(EventSource *esp, flagsmask_t flags) {$/;"	f
+chEvtDispatch	chevents.c	/^void chEvtDispatch(const evhandler_t *handlers, eventmask_t mask) {$/;"	f
+chEvtGetAndClearEvents	chevents.c	/^eventmask_t chEvtGetAndClearEvents(eventmask_t mask) {$/;"	f
+chEvtGetAndClearFlags	chevents.c	/^flagsmask_t chEvtGetAndClearFlags(EventListener *elp) {$/;"	f
+chEvtGetAndClearFlagsI	chevents.c	/^flagsmask_t chEvtGetAndClearFlagsI(EventListener *elp) {$/;"	f
+chEvtRegisterMask	chevents.c	/^void chEvtRegisterMask(EventSource *esp, EventListener *elp, eventmask_t mask) {$/;"	f
+chEvtSignal	chevents.c	/^void chEvtSignal(Thread *tp, eventmask_t mask) {$/;"	f
+chEvtSignalI	chevents.c	/^void chEvtSignalI(Thread *tp, eventmask_t mask) {$/;"	f
+chEvtUnregister	chevents.c	/^void chEvtUnregister(EventSource *esp, EventListener *elp) {$/;"	f
+chEvtWaitAll	chevents.c	/^eventmask_t chEvtWaitAll(eventmask_t mask) {$/;"	f
+chEvtWaitAllTimeout	chevents.c	/^eventmask_t chEvtWaitAllTimeout(eventmask_t mask, systime_t time) {$/;"	f
+chEvtWaitAny	chevents.c	/^eventmask_t chEvtWaitAny(eventmask_t mask) {$/;"	f
+chEvtWaitAnyTimeout	chevents.c	/^eventmask_t chEvtWaitAnyTimeout(eventmask_t mask, systime_t time) {$/;"	f
+chEvtWaitOne	chevents.c	/^eventmask_t chEvtWaitOne(eventmask_t mask) {$/;"	f
+chEvtWaitOneTimeout	chevents.c	/^eventmask_t chEvtWaitOneTimeout(eventmask_t mask, systime_t time) {$/;"	f
+chHeapAlloc	chheap.c	/^void *chHeapAlloc(MemoryHeap *heapp, size_t size) {$/;"	f
+chHeapFree	chheap.c	/^void chHeapFree(void *p) {$/;"	f
+chHeapInit	chheap.c	/^void chHeapInit(MemoryHeap *heapp, void *buf, size_t size) {$/;"	f
+chHeapStatus	chheap.c	/^size_t chHeapStatus(MemoryHeap *heapp, size_t *sizep) {$/;"	f
+chIQGetTimeout	chqueues.c	/^msg_t chIQGetTimeout(InputQueue *iqp, systime_t time) {$/;"	f
+chIQInit	chqueues.c	/^void chIQInit(InputQueue *iqp, uint8_t *bp, size_t size, qnotify_t infy,$/;"	f
+chIQPutI	chqueues.c	/^msg_t chIQPutI(InputQueue *iqp, uint8_t b) {$/;"	f
+chIQReadTimeout	chqueues.c	/^size_t chIQReadTimeout(InputQueue *iqp, uint8_t *bp,$/;"	f
+chIQResetI	chqueues.c	/^void chIQResetI(InputQueue *iqp) {$/;"	f
+chMBFetch	chmboxes.c	/^msg_t chMBFetch(Mailbox *mbp, msg_t *msgp, systime_t time) {$/;"	f
+chMBFetchI	chmboxes.c	/^msg_t chMBFetchI(Mailbox *mbp, msg_t *msgp) {$/;"	f
+chMBFetchS	chmboxes.c	/^msg_t chMBFetchS(Mailbox *mbp, msg_t *msgp, systime_t time) {$/;"	f
+chMBInit	chmboxes.c	/^void chMBInit(Mailbox *mbp, msg_t *buf, cnt_t n) {$/;"	f
+chMBPost	chmboxes.c	/^msg_t chMBPost(Mailbox *mbp, msg_t msg, systime_t time) {$/;"	f
+chMBPostAhead	chmboxes.c	/^msg_t chMBPostAhead(Mailbox *mbp, msg_t msg, systime_t time) {$/;"	f
+chMBPostAheadI	chmboxes.c	/^msg_t chMBPostAheadI(Mailbox *mbp, msg_t msg) {$/;"	f
+chMBPostAheadS	chmboxes.c	/^msg_t chMBPostAheadS(Mailbox *mbp, msg_t msg, systime_t time) {$/;"	f
+chMBPostI	chmboxes.c	/^msg_t chMBPostI(Mailbox *mbp, msg_t msg) {$/;"	f
+chMBPostS	chmboxes.c	/^msg_t chMBPostS(Mailbox *mbp, msg_t msg, systime_t time) {$/;"	f
+chMBReset	chmboxes.c	/^void chMBReset(Mailbox *mbp) {$/;"	f
+chMsgRelease	chmsg.c	/^void chMsgRelease(Thread *tp, msg_t msg) {$/;"	f
+chMsgSend	chmsg.c	/^msg_t chMsgSend(Thread *tp, msg_t msg) {$/;"	f
+chMsgWait	chmsg.c	/^Thread *chMsgWait(void) {$/;"	f
+chMtxInit	chmtx.c	/^void chMtxInit(Mutex *mp) {$/;"	f
+chMtxLock	chmtx.c	/^void chMtxLock(Mutex *mp) {$/;"	f
+chMtxLockS	chmtx.c	/^void chMtxLockS(Mutex *mp) {$/;"	f
+chMtxTryLock	chmtx.c	/^bool_t chMtxTryLock(Mutex *mp) {$/;"	f
+chMtxTryLockS	chmtx.c	/^bool_t chMtxTryLockS(Mutex *mp) {$/;"	f
+chMtxUnlock	chmtx.c	/^Mutex *chMtxUnlock(void) {$/;"	f
+chMtxUnlockAll	chmtx.c	/^void chMtxUnlockAll(void) {$/;"	f
+chMtxUnlockS	chmtx.c	/^Mutex *chMtxUnlockS(void) {$/;"	f
+chOQGetI	chqueues.c	/^msg_t chOQGetI(OutputQueue *oqp) {$/;"	f
+chOQInit	chqueues.c	/^void chOQInit(OutputQueue *oqp, uint8_t *bp, size_t size, qnotify_t onfy,$/;"	f
+chOQPutTimeout	chqueues.c	/^msg_t chOQPutTimeout(OutputQueue *oqp, uint8_t b, systime_t time) {$/;"	f
+chOQResetI	chqueues.c	/^void chOQResetI(OutputQueue *oqp) {$/;"	f
+chOQWriteTimeout	chqueues.c	/^size_t chOQWriteTimeout(OutputQueue *oqp, const uint8_t *bp,$/;"	f
+chPoolAlloc	chmempools.c	/^void *chPoolAlloc(MemoryPool *mp) {$/;"	f
+chPoolAllocI	chmempools.c	/^void *chPoolAllocI(MemoryPool *mp) {$/;"	f
+chPoolFree	chmempools.c	/^void chPoolFree(MemoryPool *mp, void *objp) {$/;"	f
+chPoolFreeI	chmempools.c	/^void chPoolFreeI(MemoryPool *mp, void *objp) {$/;"	f
+chPoolInit	chmempools.c	/^void chPoolInit(MemoryPool *mp, size_t size, memgetfunc_t provider) {$/;"	f
+chPoolLoadArray	chmempools.c	/^void chPoolLoadArray(MemoryPool *mp, void *p, size_t n) {$/;"	f
+chRegFirstThread	chregistry.c	/^Thread *chRegFirstThread(void) {$/;"	f
+chRegNextThread	chregistry.c	/^Thread *chRegNextThread(Thread *tp) {$/;"	f
+chSchDoReschedule	chschd.c	/^void chSchDoReschedule(void) {$/;"	f
+chSchDoRescheduleAhead	chschd.c	/^void chSchDoRescheduleAhead(void) {$/;"	f
+chSchDoRescheduleBehind	chschd.c	/^void chSchDoRescheduleBehind(void) {$/;"	f
+chSchGoSleepS	chschd.c	/^void chSchGoSleepS(tstate_t newstate) {$/;"	f
+chSchGoSleepTimeoutS	chschd.c	/^msg_t chSchGoSleepTimeoutS(tstate_t newstate, systime_t time) {$/;"	f
+chSchIsPreemptionRequired	chschd.c	/^bool_t chSchIsPreemptionRequired(void) {$/;"	f
+chSchReadyI	chschd.c	/^Thread *chSchReadyI(Thread *tp) {$/;"	f
+chSchRescheduleS	chschd.c	/^void chSchRescheduleS(void) {$/;"	f
+chSchWakeupS	chschd.c	/^void chSchWakeupS(Thread *ntp, msg_t msg) {$/;"	f
+chSemAddCounterI	chsem.c	/^void chSemAddCounterI(Semaphore *sp, cnt_t n) {$/;"	f
+chSemInit	chsem.c	/^void chSemInit(Semaphore *sp, cnt_t n) {$/;"	f
+chSemReset	chsem.c	/^void chSemReset(Semaphore *sp, cnt_t n) {$/;"	f
+chSemResetI	chsem.c	/^void chSemResetI(Semaphore *sp, cnt_t n) {$/;"	f
+chSemSignal	chsem.c	/^void chSemSignal(Semaphore *sp) {$/;"	f
+chSemSignalI	chsem.c	/^void chSemSignalI(Semaphore *sp) {$/;"	f
+chSemSignalWait	chsem.c	/^msg_t chSemSignalWait(Semaphore *sps, Semaphore *spw) {$/;"	f
+chSemWait	chsem.c	/^msg_t chSemWait(Semaphore *sp) {$/;"	f
+chSemWaitS	chsem.c	/^msg_t chSemWaitS(Semaphore *sp) {$/;"	f
+chSemWaitTimeout	chsem.c	/^msg_t chSemWaitTimeout(Semaphore *sp, systime_t time) {$/;"	f
+chSemWaitTimeoutS	chsem.c	/^msg_t chSemWaitTimeoutS(Semaphore *sp, systime_t time) {$/;"	f
+chSysInit	chsys.c	/^void chSysInit(void) {$/;"	f
+chSysTimerHandlerI	chsys.c	/^void chSysTimerHandlerI(void) {$/;"	f
+chThdAddRef	chdynamic.c	/^Thread *chThdAddRef(Thread *tp) {$/;"	f
+chThdCreateFromHeap	chdynamic.c	/^Thread *chThdCreateFromHeap(MemoryHeap *heapp, size_t size,$/;"	f
+chThdCreateFromMemoryPool	chdynamic.c	/^Thread *chThdCreateFromMemoryPool(MemoryPool *mp, tprio_t prio,$/;"	f
+chThdCreateI	chthreads.c	/^Thread *chThdCreateI(void *wsp, size_t size,$/;"	f
+chThdCreateStatic	chthreads.c	/^Thread *chThdCreateStatic(void *wsp, size_t size,$/;"	f
+chThdExit	chthreads.c	/^void chThdExit(msg_t msg) {$/;"	f
+chThdExitS	chthreads.c	/^void chThdExitS(msg_t msg) {$/;"	f
+chThdRelease	chdynamic.c	/^void chThdRelease(Thread *tp) {$/;"	f
+chThdResume	chthreads.c	/^Thread *chThdResume(Thread *tp) {$/;"	f
+chThdSetPriority	chthreads.c	/^tprio_t chThdSetPriority(tprio_t newprio) {$/;"	f
+chThdSleep	chthreads.c	/^void chThdSleep(systime_t time) {$/;"	f
+chThdSleepUntil	chthreads.c	/^void chThdSleepUntil(systime_t time) {$/;"	f
+chThdTerminate	chthreads.c	/^void chThdTerminate(Thread *tp) {$/;"	f
+chThdWait	chthreads.c	/^msg_t chThdWait(Thread *tp) {$/;"	f
+chThdYield	chthreads.c	/^void chThdYield(void) {$/;"	f
+chVTResetI	chvt.c	/^void chVTResetI(VirtualTimer *vtp) {$/;"	f
+chVTSetI	chvt.c	/^void chVTSetI(VirtualTimer *vtp, systime_t time, vtfunc_t vtfunc, void *par) {$/;"	f
+ch_debug	chregistry.c	/^ROMCONST chdebug_t ch_debug = {$/;"	v
+dbg_check_disable	chdebug.c	/^void dbg_check_disable(void) {$/;"	f
+dbg_check_enable	chdebug.c	/^void dbg_check_enable(void) {$/;"	f
+dbg_check_enter_isr	chdebug.c	/^void dbg_check_enter_isr(void) {$/;"	f
+dbg_check_leave_isr	chdebug.c	/^void dbg_check_leave_isr(void) {$/;"	f
+dbg_check_lock	chdebug.c	/^void dbg_check_lock(void) {$/;"	f
+dbg_check_lock_from_isr	chdebug.c	/^void dbg_check_lock_from_isr(void) {$/;"	f
+dbg_check_suspend	chdebug.c	/^void dbg_check_suspend(void) {$/;"	f
+dbg_check_unlock	chdebug.c	/^void dbg_check_unlock(void) {$/;"	f
+dbg_check_unlock_from_isr	chdebug.c	/^void dbg_check_unlock_from_isr(void) {$/;"	f
+dbg_isr_cnt	chdebug.c	/^cnt_t dbg_isr_cnt;$/;"	v
+dbg_lock_cnt	chdebug.c	/^cnt_t dbg_lock_cnt;$/;"	v
+dbg_panic_msg	chdebug.c	/^const char *dbg_panic_msg;$/;"	v
+dbg_trace	chdebug.c	/^void dbg_trace(Thread *otp) {$/;"	f
+dbg_trace_buffer	chdebug.c	/^ch_trace_buffer_t dbg_trace_buffer;$/;"	v
+default_heap	chheap.c	/^static MemoryHeap default_heap;$/;"	v	file:
+dequeue	chlists.c	/^Thread *dequeue(Thread *tp) {$/;"	f
+endmem	chmemcore.c	/^static uint8_t *endmem;$/;"	v	file:
+fifo_remove	chlists.c	/^Thread *fifo_remove(ThreadsQueue *tqp) {$/;"	f
+hmtx	chheap.c	/^static Mutex            hmtx;$/;"	v	file:
+hsem	chheap.c	/^static Semaphore        hsem;$/;"	v	file:
+lifo_remove	chlists.c	/^Thread *lifo_remove(ThreadsQueue *tqp) {$/;"	f
+list_insert	chlists.c	/^void list_insert(Thread *tp, ThreadsList *tlp) {$/;"	f
+list_remove	chlists.c	/^Thread *list_remove(ThreadsList *tlp) {$/;"	f
+msg_insert	chmsg.c	52;"	d	file:
+msg_insert	chmsg.c	54;"	d	file:
+nextmem	chmemcore.c	/^static uint8_t *nextmem;$/;"	v	file:
+prio_insert	chlists.c	/^void prio_insert(Thread *tp, ThreadsQueue *tqp) {$/;"	f
+queue_insert	chlists.c	/^void queue_insert(Thread *tp, ThreadsQueue *tqp) {$/;"	f
+qwait	chqueues.c	/^static msg_t qwait(GenericQueue *qp, systime_t time) {$/;"	f	file:
+rlist	chschd.c	/^ReadyList rlist;$/;"	v
+sem_insert	chsem.c	65;"	d	file:
+sem_insert	chsem.c	67;"	d	file:
+vtlist	chvt.c	/^VTList vtlist;$/;"	v
+wakeup	chschd.c	/^static void wakeup(void *p) {$/;"	f	file:
